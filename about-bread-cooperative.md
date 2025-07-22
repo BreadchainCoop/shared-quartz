@@ -6,10 +6,10 @@ Last edited time: 2024-09-17T11:30
 Created time: 2024-01-08T00:48
 permalink: 
 publish: 
-draft: 
+draft: "false"
 author: 
-description: 
-title: 
+description: Bread Coop about - description
+title: About Bread Cooperative
 share: "true"
 ---
 > [!important] See why
