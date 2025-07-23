@@ -1,5 +1,4 @@
 ---
-title: Home
+title: Architecture
 share: "true"
 ---
-Index
