@@ -2,4 +2,4 @@
 title: Configuration
 share: "true"
 ---
-Configuration
+A page about Configuration
