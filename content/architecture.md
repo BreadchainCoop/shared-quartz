@@ -1,4 +1,0 @@
----
-title: Architecture
-share: "true"
----
