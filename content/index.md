@@ -2,4 +2,4 @@
 title: Home
 share: "true"
 ---
-Index
+Hello world
