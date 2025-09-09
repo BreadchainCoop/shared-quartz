@@ -1,0 +1,18 @@
+---
+tags:
+  - Coop-Members
+Last edited time: 2024-12-13T05:19
+Created time: 2024-01-17T01:40
+share: true
+---
+Here you can find all of the projects that are currently part of the cohort of Breadchain Network member projects that are receiving distributions from the monthly Breadchain voting cycles. Check out this page to learn how you can apply for your organization to become a part of the network.
+
+|Name|Tags|URL|About|Project Lead|Email|![](https://www.notion.so/icons/key-antique_gray.svg)Treasury|
+|---|---|---|---|---|---|---|
+|[[ReFi DAO]]|Climate|[https://www.refidao.com/](https://www.refidao.com/)|A global network driving the Regenerative Finance (ReFi) movement, leveraging Web3 to regenerate ecosystems and foster economic systems that prioritize ecological and social well-being.|Luiz Fernando - [https://x.com/louizfe](https://x.com/louizfe)|social@refidao.com|refidao.eth; Safe (Celo/Gnosis Chain): 0x68060388C7D97B4bF779a2Ead46c86e5588F073f|
+|[[Citizen Wallet]]|Development, Events, Smart Contracts|[https://citizenwallet.xyz/](https://citizenwallet.xyz/)|_An open-source project providing a Web3 tool stack to support community currencies._|Jonas Boury|jonas@citizenwaller.xyz|[https://app.safe.global/balances?safe=gno:0x9c8C8513974d22E8eA9F74f2860833Db107111E6](https://app.safe.global/balances?safe=gno:0x9c8C8513974d22E8eA9F74f2860833Db107111E6)|
+|[[breadchain-wiki/member-projects/Breadchain Core\|Breadchain Core]]|Cooperative, Core, Development, Smart Contracts|[https://breadchain.xyz/](https://breadchain.xyz/)|_The core team developing the tech and design used by Breadchain._|[Joshua Davila](https://twitter.com/TBSocialist)|contact@breadchain.xyz|[https://app.safe.global/home?safe=gno:0x918dEf5d593F46735f74F9E2B280Fe51AF3A99ad](https://app.safe.global/home?safe=gno:0x918dEf5d593F46735f74F9E2B280Fe51AF3A99ad)|
+|[[Crypto Commons Association]]|Events, Research|[https://crypto-commons.org/](https://crypto-commons.org/)|_An organization producing research and events related to decentralized technologies and the commons._|Rok Kranjc, Ron Turetzky, Eva Gentner|cryptocommons@protonmail.com||
+|[[Symbiota Coop]]|Cooperative, Events, Psychedelics|[https://symbiota.coop/](https://symbiota.coop/)|_A collective of event-focused organisations devoted to new forms of culture and enquiry, structured as a not-for-profit worker co-operative._|[Stephen Reid](https://x.com/stephenreid_net)|stephen@symbiota.coop||
+|[[LaborDAO]]|Development, Events, Labor, Research|[https://www.thelabordao.com/](https://www.thelabordao.com/)|A collaborative community of researchers, developers, and visionaries dedicated to building innovative tools and solutions that enhance the web3 ecosystem improving experiences for workers and organizations.|Larry Williams Jr.|contact@unionbase.org|[https://app.safe.global/home?safe=gno:0x7E1367998e1fe8Fab8f0bbF41e97cD6E0C891B64](https://app.safe.global/home?safe=gno:0x7E1367998e1fe8Fab8f0bbF41e97cD6E0C891B64)|
+|[[Breadchain Shared Treasury]]|Cooperative, Core|[https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0](https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0)|_A co-owned treasury in Breadchain used for grants and sponsorships._|Co-owned by all project leads||[https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0](https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0)|
