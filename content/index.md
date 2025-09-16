@@ -1,97 +1,32 @@
 ---
+title: Bread Cooperative Wiki
+description:
+fileClass: file
 share: true
 ---
-> [!important] **Get**
-> 
-> ==**$BREAD**== **and use it anywhere - all while supporting a post-capitalist future.**
 
-> [!info] Breadchain Co-operative.  
-> The currency for solidarity.  
-> [https://breadchain.xyz/](https://breadchain.xyz/)  
-
-> [!info] Bread Crowdstaking  
-> Bake and burn BREAD.  
-> [https://app.breadchain.xyz/](https://app.breadchain.xyz/)  
-
-> [!info] Breadchain Cooperative  
-> A community of decentralized, cooperatives projects building solidarity primitives for a post-capitalist web3.  
-> [https://breadchain.mirror.xyz/](https://breadchain.mirror.xyz/)  
-
-> [!info] Breadchain Cooperative  
-> A collective of decentralized cooperative projects building solidarity primitives funded by our digital community currency BREAD.  
-> [https://guild.xyz/breadchain](https://guild.xyz/breadchain)  
-
-  
-
-> [!important] **Table of Contents**
-> 
-> - [[# About]]
-> - [[# Member Projects ]]
-> - [[# Documentation]]
-> - [[# Looking to Contribute? ]]
-> - [[#Other Initiatives]]
-> 
->   
-
-> [!important] ==**Quicklinks**==
-> 
-> [[about-bread-cooperative.md]]
-> 
-> [[wiki/what-is-bread/index]]
-> 
-> [[wiki/crowdstaking-application/index]]
-> 
-> [[wiki/what-is-bread/$BREAD Marketplace/index]]
-> 
-> [[wiki/member-projects/index]]
-> 
-> [[Contacts and Links]]
-> 
-> [[notion/breadchain-wiki/documentation/Untitled/Untitled]]
-> 
-> [[The Cryptoleft Canon]]
-
-  
-
----
-
-## About
-
----
-
----
-
-Breadchain Cooperative is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call _==solidarity primitives==_ - development tools which help to forge solidarity between individuals and collectives.
+Breadchain Cooperative is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call [[wiki/solidarity-primitives/index|Solidarity Primitives]] - development tools which help to forge solidarity between individuals and collectives.
 
 The first _==solidarity primitive==_ created by the Breadchain Cooperative is the ==**BREAD**== community token created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/). ==We call this== ==**baking BREAD**====. The token acts as both a== ==**claim on the xDAI collateral**== ==as well as a== ==**digital local currency**== ==which will be used within the Breadchain Network of projects and broader ecosystem.==
 
-The primary infrastructure being built at Breadchain is to ask ourselves _==**what if progressives had their own**== ==**[[wiki/what-is-bread/index]]**== ==**and**== ==**[[Yield Governance]]**====**? Where would we decide to put resources towards to build a post-capitalist political economy?**==_
+The primary infrastructure being built at Breadchain is to ask ourselves _==**what if progressives had their own**== ==**[[wiki/about/bread-token/index]]**== ==**and**== ==**[[wiki/solidarity-primitives/crowdstaking/yield-governance/index]]**====**? Where would we decide to put resources towards to build a post-capitalist political economy?**==_
 
----
-
-[[team]]
-
-_^Learn more about the team here_
-
-  
-
----
+> [!important] **Quick Links**
+> - [[wiki/bread-cooperative/index|About Bread Cooperative]]
+> 	- [[contact|Contact Information]]
+> - [[wiki/about/bread-token/index|$BREAD Token]]
+> 	- [[wiki/solidarity-primitives/crowdstaking/index|Crowdstaking Application]]
+> 	- [[wiki/about/bread-token/marketplace/index|$BREAD Marketplace]]
+> 	- [[wiki/solidarity-primitives/crowdstaking/member-projects/index|Member Projects]]
 
 > [!info] Breadchain Cooperative - Open Collective  
 > Breadchain is a cooperative of blockchain projects working to advance a progressive vision for the technology and its effect on society.  
 > [https://opencollective.com/breadchain-cooperative](https://opencollective.com/breadchain-cooperative)  
 
-_Donate on Open Collective!_
 
-> [!info] Breadchain Cooperative  
-> Breadchain Cooperative has 6 repositories available.  
-> [https://github.com/breadchaincoop](https://github.com/breadchaincoop)  
 
 _Help us develop post-capitalist blockchain applications!_
 
-_==**Download the Citizen Wallet app today to make peer-to-peer payments in BREAD today!**==_
-
-  
 
 ---
 
@@ -99,9 +34,9 @@ _==**Download the Citizen Wallet app today to make peer-to-peer payments in BREA
 
 _==Read more on the members of Breadchain, and see which ones you’d want to vote for!==_
 
-[[wiki/angel-minter-program/angel-minters/index]]
+[[wiki/solidarity-primitives/crowdstaking/angel-minters/index|Angel Minters]]
 
-[[wiki/member-projects/index]]
+[[wiki/solidarity-primitives/crowdstaking/member-projects/index|Member Projects]]
 
 > [!info] Crypto Commons Association  
 > The Crypto Commons Association (CCA) is a non-profit organization, hosted on OpenCollective.  
@@ -127,28 +62,12 @@ _==Read more on the members of Breadchain, and see which ones you’d want to vo
 
 ---
 
-# Documentation
-
-[[notion/breadchain-wiki/documentation/Untitled/Untitled]]
-
-[[Calendar]]
-
----
-
 # Looking to Contribute?
 
-> [!important] If you have skills (both technical and non-technical) that you believe would benefit our mission, you can fill out the google form
-> 
-> [here](https://forms.gle/UU4FmHq4CZbiEKPc6) and expect to hear from a member of our team shortly regarding any potential opportunities for collaboration.  
+> [!important] If you have skills (both technical and non-technical) that you believe would benefit our mission, you can fill out the google form [here](https://forms.gle/UU4FmHq4CZbiEKPc6). Expect to hear from a member of our team shortly regarding any potential opportunities for collaboration.  
 >   
 
-> [!important] For more information on what it means to contribute to Breadchain and how to become a contributor or core team member, check out the page
-> 
-> [[Breadchain Contributor Onboarding]].
-
-  
-
----
+> [!important] For more information on what it means to contribute to Breadchain and how to become a contributor or core team member, check out the [[contributor-onboarding|Contributor Onboarding Page]].
 
 ![[bread_imagine_banner.webp]]
 
@@ -156,10 +75,7 @@ _==Read more on the members of Breadchain, and see which ones you’d want to vo
 
 # Other Initiatives
 
-[[wiki/savings-circles/index]]
-
-[[wiki/sourdough-systems/index]]
-
-[[wiki/gas-killer/index]]
-
-[[Bread Cooperative Garden Pool Setup]]
+- [[stacks|Bread Stacks]]
+- [[wiki/bread-cooperative/sourdough-systems/index|Sourdough Systems]]
+- [[gas-killer|Gas Killer]]
+- [[gardens-setup|$BREAD Gardens Pool Setup]]

@@ -1,0 +1,8 @@
+---
+title: Member Projects
+share: true
+folderOrder: 2
+fileClass: index
+---
+
+Here you can find all of the projects that are currently part of the cohort of Breadchain Network member projects that are receiving distributions from the monthly Breadchain voting cycles. Check out this page to learn how you can apply for your organization to become a part of the network.

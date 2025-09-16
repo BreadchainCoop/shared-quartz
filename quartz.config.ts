@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Bread Wiki",
+    pageTitleSuffix: "Bread Docs",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "docs.bread.coop",
+    ignorePatterns: [".obsidian", "**/readme.md", "**/README.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -66,10 +66,18 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      Plugin.WikiPathProcessor(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      // Modify this configuration to enable prettylinks. See here for info https://quartz.jzhao.xyz/plugins/CrawlLinks
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        prettyLinks: true,
+        openLinksInNewTab: true,
+        lazyLoad: true
+      }),
+      // End modification
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

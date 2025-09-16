@@ -9,6 +9,20 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
+## Bread Cooperative Modifications
+
+This repository contains customizations for the Bread Cooperative documentation site:
+
+### Custom Plugins
+
+- **[WikiPathProcessor](docs/plugins/WikiPathProcessor.md)** - Removes `wiki/` prefixes from wikilinks and markdown links during content processing, enabling cleaner link structures after content migration.
+
+### Configuration Changes
+
+- **CrawlLinks**: Enhanced with `prettyLinks`, `openLinksInNewTab`, and `lazyLoad` options
+- **Site Configuration**: Customized for `docs.bread.coop` with Bread-specific branding
+- **Ignore Patterns**: Configured to exclude readme files and preserve `.obsidian` folder structure
+
 ## Sponsors
 
 <p align="center">
