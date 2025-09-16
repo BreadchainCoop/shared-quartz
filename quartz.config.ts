@@ -69,7 +69,14 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      // Modify this configuration to enable prettylinks. See here for info https://quartz.jzhao.xyz/plugins/CrawlLinks
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        prettyLinks: true,
+        openLinksInNewTab: true,
+        lazyLoad: true
+      }),
+      // End modification
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
