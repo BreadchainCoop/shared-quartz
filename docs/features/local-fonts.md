@@ -75,6 +75,39 @@ Add `@font-face` declarations to `quartz/styles/custom.scss`:
 - Declare all required font weights and styles
 - Test font loading across different browsers and connection speeds
 
+## Typography Scale Classes
+
+The local fonts implementation includes utility classes for consistent typography:
+
+### Display Text
+```scss
+.display-text // Large headers like "IMAGINE" with ultra-tight tracking
+```
+
+### Body Text Variants
+```scss
+.body-copy      // Standard body text (16px/24px line-height)
+.body-copy-bold // Bold body text with same proportions
+```
+
+### Caption Text
+```scss
+.caption-text      // Small text (12px/24px line-height)
+.caption-text-bold // Bold caption text
+```
+
+## Header Hierarchy
+
+Enhanced header styling with variable letter-spacing:
+- **h1**: Font-weight 900, -0.04em letter-spacing
+- **h2**: Font-weight 700, -0.03em letter-spacing
+- **h3**: Font-weight 700, -0.02em letter-spacing
+- **h4-h6**: Font-weight 600, progressive letter-spacing
+
+## Responsive Typography
+
+Fluid typography scaling using `clamp()` functions ensures optimal readability across all screen sizes while maintaining brand consistency.
+
 ## Implementation Example
 
-See `bread-fonts.md` in this repository for a complete implementation example using custom Bread fonts with proper weight mapping and typography refinements.
+See `bread-fonts.md` in this repository for a complete implementation example using custom Bread fonts with proper weight mapping, typography refinements, and brand-compliant hierarchy.
