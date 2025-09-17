@@ -34,6 +34,13 @@ This repository contains customizations for the Bread Cooperative documentation 
   - **Modified**: `ContentDetails` interface to include frontmatter data access
   - **Enhanced**: Explorer components with sortFn that respects frontmatter order values
   - **Result**: Folders sort by folderOrder (about=0, solidarity-primitives=1, bread-cooperative=2)
+- **Typography and Visual Hierarchy**: Enhanced site navigation and content readability
+  - **Logo Integration**: Added Bread logo to site title using `bread-mono.png` from static assets
+  - **Font Weight Swap**: Site title now uses heavy weight (900) with orange color, content headings use light weight (400) with dark color
+  - **Visual Impact**: Creates prominent site navigation while keeping content headings subtle and readable
+- **Social Media Integration**: Added custom social sharing images for key content pages
+  - **Manifesto Page**: Added `socialImage: socialImages/manifesto.png` to override default og-image
+  - **Voting Power Page**: Added `socialImage: socialImages/voting-power.png` for branded social sharing
 
 ## Sponsors
 
