@@ -22,6 +22,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **CrawlLinks**: Enhanced with `prettyLinks`, `openLinksInNewTab`, and `lazyLoad` options
 - **Site Configuration**: Customized for `docs.bread.coop` with Bread-specific branding
 - **Ignore Patterns**: Configured to exclude readme files and preserve `.obsidian` folder structure
+- **[Local Fonts](docs/features/local-fonts.md)**: Implemented custom Bread fonts (BreadDisplay/BreadBody) replacing Google Fonts for brand consistency
 
 ## Sponsors
 
