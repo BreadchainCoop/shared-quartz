@@ -192,6 +192,72 @@ h5, h6 {
 }
 
 // =============================================================================
+// BREADCOOP CALLOUT CUSTOMIZATION
+// =============================================================================
+
+// Jade Palette Group - Primary callout types
+.callout {
+  // Note callout - Primary Jade
+  &[data-callout="note"] {
+    --color: #286B63;
+    --border: #286B6344;
+    --bg: #286B6310;
+  }
+
+  // Abstract callout - Jade 1
+  &[data-callout="abstract"] {
+    --color: #72849D;
+    --border: #72849D44;
+    --bg: #72849D10;
+  }
+
+  // Info callout - Jade 0 (lighter for frequent use)
+  &[data-callout="info"] {
+    --color: #9CACC6;
+    --border: #9CACC644;
+    --bg: #9CACC610;
+  }
+
+  // Todo callout - Jade 2 (darker for urgency)
+  &[data-callout="todo"] {
+    --color: #404B5A;
+    --border: #404B5A44;
+    --bg: #404B5A10;
+  }
+
+  // Tip callout - Primary Jade (matching note for consistency)
+  &[data-callout="tip"] {
+    --color: #286B63;
+    --border: #286B6344;
+    --bg: #286B6310;
+  }
+
+  // System Green - Success
+  &[data-callout="success"] {
+    --color: #32A800;
+    --border: #32A80044;
+    --bg: #32A80010;
+  }
+
+  // System Orange - Question and Warning
+  &[data-callout="question"],
+  &[data-callout="warning"] {
+    --color: #CE7F00;
+    --border: #CE7F0044;
+    --bg: #CE7F0010;
+  }
+
+  // System Red - Failure, Danger, Bug
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
+    --color: #DF0B00;
+    --border: #DF0B0044;
+    --bg: #DF0B0010;
+  }
+}
+
+// =============================================================================
 // RESPONSIVE TYPOGRAPHY
 // =============================================================================
 
