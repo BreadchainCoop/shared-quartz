@@ -23,6 +23,13 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **Site Configuration**: Customized for `docs.bread.coop` with Bread-specific branding
 - **Ignore Patterns**: Configured to exclude readme files and preserve `.obsidian` folder structure
 - **[Local Fonts](docs/features/local-fonts.md)**: Implemented custom Bread fonts (BreadDisplay/BreadBody) replacing Google Fonts for brand consistency
+- **Brand Colors**: Implemented official BreadCoop design system colors (Paper backgrounds, Core Orange/Jade, Ink text) for visual brand compliance
+- **Dark Mode**: Temporarily disabled via commented layout components in `quartz.layout.ts` during light mode color implementation phase
+  - **To revert**: Uncomment `{ Component: Component.Darkmode() },` lines in both `defaultContentPageLayout.left` and `defaultListPageLayout.left` sections
+  - **Current state**: Dark mode toggle hidden from UI, site operates in light mode only
+- **Layout Simplification**: Removed Graph view and Backlinks components from right sidebar in `quartz.layout.ts` for cleaner content-focused layout
+  - **Removed**: `Component.Graph()` and `Component.Backlinks()` from `defaultContentPageLayout.right`
+  - **Preserved**: Table of Contents as sole right sidebar component
 
 ## Sponsors
 
