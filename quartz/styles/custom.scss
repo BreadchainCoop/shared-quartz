@@ -153,6 +153,45 @@ h5, h6 {
 }
 
 // =============================================================================
+// FONT WEIGHT AND COLOR ADJUSTMENTS
+// =============================================================================
+
+// Make site title heavier and orange (swap with headings)
+.page-title {
+  font-weight: 900; // Very heavy like "Other Initiatives"
+
+  a {
+    color: var(--dark); // Orange color for the link
+  }
+}
+
+// Make ALL headings lighter and dark ink (swap with site title)
+h1 {
+  font-weight: 400; // Override existing 900
+  color: var(--darkgray); // Dark ink color (was on site title)
+}
+
+h2 {
+  font-weight: 400; // Override existing 700
+  color: var(--darkgray);
+}
+
+h3 {
+  font-weight: 400; // Override existing 700
+  color: var(--darkgray);
+}
+
+h4 {
+  font-weight: 400; // Override existing 600
+  color: var(--darkgray);
+}
+
+h5, h6 {
+  font-weight: 400; // Override existing 600
+  color: var(--darkgray);
+}
+
+// =============================================================================
 // RESPONSIVE TYPOGRAPHY
 // =============================================================================
 
