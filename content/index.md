@@ -7,9 +7,9 @@ share: true
 
 Breadchain Cooperative is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call [[wiki/solidarity-primitives/index|Solidarity Primitives]] - development tools which help to forge solidarity between individuals and collectives.
 
-The first _==solidarity primitive==_ created by the Breadchain Cooperative is the ==**BREAD**== community token created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/). ==We call this== ==**baking BREAD**====. The token acts as both a== ==**claim on the xDAI collateral**== ==as well as a== ==**digital local currency**== ==which will be used within the Breadchain Network of projects and broader ecosystem.==
+The first _==solidarity primitive==_ created by the Breadchain Cooperative is the [[wiki/about/bread-token/index|Bread Community Token]], created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/). We call this _=="Baking $BREAD"==_. The token acts as both a **claim on the xDAI collateral** as well as a **digital local currency** which will be used within the Breadchain Network of projects and broader ecosystem.
 
-The primary infrastructure being built at Breadchain is to ask ourselves _==**what if progressives had their own**== ==**[[wiki/about/bread-token/index]]**== ==**and**== ==**[[wiki/solidarity-primitives/crowdstaking/yield-governance/index]]**====**? Where would we decide to put resources towards to build a post-capitalist political economy?**==_
+The primary infrastructure being built at Breadchain is to ask ourselves _what if progressives had their own [[wiki/about/bread-token/index|token]] and [[wiki/solidarity-primitives/crowdstaking/yield-governance/index|governance]]?_ Where would we decide to put resources towards to build a post-capitalist political economy?
 
 > [!important] **Quick Links**
 > - [[wiki/bread-cooperative/index|About Bread Cooperative]]

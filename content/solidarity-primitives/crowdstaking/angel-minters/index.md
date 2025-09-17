@@ -172,7 +172,7 @@ No worries, we understand that not everyone has the ability to take part in this
 
 - ==**Mint as much BREAD as you’re comfortable with.**== Just because you can’t do 10k doesn’t mean you shouldn’t at all. The vision of the project is to allow a way for everyone to contribute however they financially can without losing any funds. [Every BREAD minted counts](https://app.breadchain.xyz/)!
 - Sign up to ==**contribute to Breadchain with your skills**==. There’s plenty of work to do and we can use both technical and non-technical help. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdiHclxYr3niJ7LW7hfR16K1dD0SSmpgCgzV3NzLMh1MJJygw/viewform) to get in touch with our team to see how you can best contribute. Or read our [[contributor-onboarding|Contributor Onboarding Guide]] to learn more.
-- ==**Apply your organization to become a part of Breadchain.**== You can learn more about what our expectations are of member projects on [[how-to-apply|How to Become a Member Project]]. You can start the application process [here](https://forms.gle/GVPKPzLw1merKwx57).
+- ==**Apply your organization to become a part of Breadchain.**== You can learn more about what our expectations are of member projects on [[how-to-become-a-member-project|How to Become a Member Project]]. You can start the application process [here](https://forms.gle/GVPKPzLw1merKwx57).
 
 ## How to get assets to Gnosis Chain?
 

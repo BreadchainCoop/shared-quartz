@@ -3,6 +3,7 @@ title: $BREAD Community Currency
 description:
 share: true
 fileClass: index
+alias: bread-token
 ---
 
 ==BREAD== is the community currency for the Breadchain ecosystem which exists on Gnosis Chain. All ==BREAD== is created through the [[wiki/solidarity-primitives/crowdstaking/index|Solidarity Fund]] which anyone with xDAI on Gnosis Chain is able to use to have some BREAD for themselves.
