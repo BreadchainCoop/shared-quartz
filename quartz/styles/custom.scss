@@ -1,3 +1,283 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// =============================================================================
+// BREAD BODY FONTS (Body Text)
+// =============================================================================
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Light.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Regular.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Bold.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// =============================================================================
+// BREAD DISPLAY FONTS (Headers)
+// =============================================================================
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Regular.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Bold.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Black.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// =============================================================================
+// TYPOGRAPHY REFINEMENTS
+// =============================================================================
+
+// Base typography improvements
+body {
+  line-height: 1.5; // 16px/24px ratio from reference
+}
+
+// =============================================================================
+// TYPOGRAPHY SCALE CLASSES
+// =============================================================================
+
+// Display text (large headers like "IMAGINE")
+.display-text {
+  font-family: var(--headerFont);
+  font-weight: 900;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+// Body copy variants matching reference
+.body-copy {
+  font-family: var(--bodyFont);
+  font-size: 1rem;
+  line-height: 1.5; // 16px/24px from reference
+  font-weight: 400;
+}
+
+.body-copy-bold {
+  font-family: var(--bodyFont);
+  font-size: 1rem;
+  line-height: 1.5; // 16px/24px from reference
+  font-weight: 700;
+}
+
+// Caption and small text
+.caption-text {
+  font-family: var(--bodyFont);
+  font-size: 0.75rem; // 12px
+  line-height: 2; // 12px/24px from reference
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.caption-text-bold {
+  font-family: var(--bodyFont);
+  font-size: 0.75rem; // 12px
+  line-height: 2; // 12px/24px from reference
+  font-weight: 700;
+  color: var(--darkgray);
+}
+
+// =============================================================================
+// HEADER TYPOGRAPHY HIERARCHY
+// =============================================================================
+
+// Enhanced header styling with variable letter-spacing
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.4;
+}
+
+// =============================================================================
+// FONT WEIGHT AND COLOR ADJUSTMENTS
+// =============================================================================
+
+// Make site title heavier and orange (swap with headings)
+.page-title {
+  font-weight: 900; // Very heavy like "Other Initiatives"
+
+  a {
+    color: var(--dark); // Orange color for the link
+  }
+}
+
+// Make ALL headings lighter and dark ink (swap with site title)
+h1 {
+  font-weight: 400; // Override existing 900
+  color: var(--darkgray); // Dark ink color (was on site title)
+}
+
+h2 {
+  font-weight: 400; // Override existing 700
+  color: var(--darkgray);
+}
+
+h3 {
+  font-weight: 400; // Override existing 700
+  color: var(--darkgray);
+}
+
+h4 {
+  font-weight: 400; // Override existing 600
+  color: var(--darkgray);
+}
+
+h5, h6 {
+  font-weight: 400; // Override existing 600
+  color: var(--darkgray);
+}
+
+// =============================================================================
+// BREADCOOP CALLOUT CUSTOMIZATION
+// =============================================================================
+
+// Jade Palette Group - Primary callout types
+.callout {
+  // Note callout - Primary Jade
+  &[data-callout="note"] {
+    --color: #286B63;
+    --border: #286B6344;
+    --bg: #286B6310;
+  }
+
+  // Abstract callout - Jade 1
+  &[data-callout="abstract"] {
+    --color: #72849D;
+    --border: #72849D44;
+    --bg: #72849D10;
+  }
+
+  // Info callout - Jade 0 (lighter for frequent use)
+  &[data-callout="info"] {
+    --color: #9CACC6;
+    --border: #9CACC644;
+    --bg: #9CACC610;
+  }
+
+  // Todo callout - Jade 2 (darker for urgency)
+  &[data-callout="todo"] {
+    --color: #404B5A;
+    --border: #404B5A44;
+    --bg: #404B5A10;
+  }
+
+  // Tip callout - Primary Jade (matching note for consistency)
+  &[data-callout="tip"] {
+    --color: #286B63;
+    --border: #286B6344;
+    --bg: #286B6310;
+  }
+
+  // System Green - Success
+  &[data-callout="success"] {
+    --color: #32A800;
+    --border: #32A80044;
+    --bg: #32A80010;
+  }
+
+  // System Orange - Question and Warning
+  &[data-callout="question"],
+  &[data-callout="warning"] {
+    --color: #CE7F00;
+    --border: #CE7F0044;
+    --bg: #CE7F0010;
+  }
+
+  // System Red - Failure, Danger, Bug
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
+    --color: #DF0B00;
+    --border: #DF0B0044;
+    --bg: #DF0B0010;
+  }
+}
+
+// =============================================================================
+// RESPONSIVE TYPOGRAPHY
+// =============================================================================
+
+// Ensure good typography scaling on mobile
+@media (max-width: 768px) {
+  .display-text {
+    font-size: clamp(2rem, 12vw, 4rem);
+    letter-spacing: -0.03em;
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+
+  .body-copy, .body-copy-bold {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}

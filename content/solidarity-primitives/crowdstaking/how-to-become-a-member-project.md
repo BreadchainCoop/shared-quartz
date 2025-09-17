@@ -3,6 +3,7 @@ title: How to become a member project
 description: Learn how to apply as a member project and the expectations we have for being accepted.
 fileClass: file
 share: true
+permalink: how-to-become-a-member-project
 ---
 
 We're honored and excited that you're interested in potentially joining as a member project! Here you can find more information about what we expect from projects and what you can expect in the application process. Note that this is the current process and we expect it to change over time as we grow.

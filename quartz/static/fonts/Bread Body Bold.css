@@ -1,0 +1,9 @@
+/* Webfont: BreadBody-Bold */@font-face {
+    font-family: 'BreadBody';
+    src: url('Bread Body Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('Bread Body Bold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

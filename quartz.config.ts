@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Bread Wiki",
-    pageTitleSuffix: "Bread Docs",
+    pageTitleSuffix: " | Bread Wiki",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -20,24 +20,24 @@ const config: QuartzConfig = {
     ignorePatterns: [".obsidian", "**/readme.md", "**/README.md"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "BreadDisplay",
+        body: "BreadBody",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F6F3EB",                      // Paper main (official background)
+          lightgray: "#808080",                  // Grey (neutral borders)
+          gray: "#595959",                       // Grey 1 (medium borders)
+          darkgray: "#1B201A",                   // Ink 0 (body text)
+          dark: "#EA6023",                       // Core Orange #1 (headers/strong text)
+          secondary: "#1B201A",                  // Ink 0 (links - subtle, readable)
+          tertiary: "#595959",                   // Grey 1 (hover states)
+          highlight: "rgba(40, 107, 99, 0.1)",  // Jade transparency (callout accents)
+          textHighlight: "rgba(234, 96, 35, 0.15)", // Orange transparency (text selections)
         },
         darkMode: {
           light: "#161618",
@@ -70,14 +70,12 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      // Modify this configuration to enable prettylinks. See here for info https://quartz.jzhao.xyz/plugins/CrawlLinks
       Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
         prettyLinks: true,
         openLinksInNewTab: true,
         lazyLoad: true
       }),
-      // End modification
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
@@ -97,7 +95,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }

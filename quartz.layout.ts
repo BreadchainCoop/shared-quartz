@@ -7,10 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
+    links: {},
   }),
 }
 
@@ -34,16 +31,41 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        // { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const orderA = a.isFolder
+          ? a.data?.frontmatter?.folderOrder as number | undefined
+          : a.data?.frontmatter?.noteOrder as number | undefined
+        const orderB = b.isFolder
+          ? b.data?.frontmatter?.folderOrder as number | undefined
+          : b.data?.frontmatter?.noteOrder as number | undefined
+
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          if (orderA !== undefined && orderB !== undefined) {
+            return orderA - orderB;
+          } else if (orderA !== undefined) {
+            return -1;
+          } else if (orderB !== undefined) {
+            return 1;
+          } else {
+            return a.displayName.localeCompare(b.displayName);
+          }
+        }
+
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+    }),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
@@ -59,10 +81,37 @@ export const defaultListPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        // { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const orderA = a.isFolder
+          ? a.data?.frontmatter?.folderOrder as number | undefined
+          : a.data?.frontmatter?.noteOrder as number | undefined
+        const orderB = b.isFolder
+          ? b.data?.frontmatter?.folderOrder as number | undefined
+          : b.data?.frontmatter?.noteOrder as number | undefined
+
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          if (orderA !== undefined && orderB !== undefined) {
+            return orderA - orderB;
+          } else if (orderA !== undefined) {
+            return -1;
+          } else if (orderB !== undefined) {
+            return 1;
+          } else {
+            return a.displayName.localeCompare(b.displayName);
+          }
+        }
+
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+    }),
   ],
   right: [],
 }
