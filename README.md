@@ -30,6 +30,10 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **Layout Simplification**: Removed Graph view and Backlinks components from right sidebar in `quartz.layout.ts` for cleaner content-focused layout
   - **Removed**: `Component.Graph()` and `Component.Backlinks()` from `defaultContentPageLayout.right`
   - **Preserved**: Table of Contents as sole right sidebar component
+- **Explorer Frontmatter Sorting**: Implemented custom sort order using frontmatter `folderOrder` and `noteOrder` attributes
+  - **Modified**: `ContentDetails` interface to include frontmatter data access
+  - **Enhanced**: Explorer components with sortFn that respects frontmatter order values
+  - **Result**: Folders sort by folderOrder (about=0, solidarity-primitives=1, bread-cooperative=2)
 
 ## Sponsors
 

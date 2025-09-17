@@ -38,7 +38,34 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const orderA = a.isFolder
+          ? a.data?.frontmatter?.folderOrder as number | undefined
+          : a.data?.frontmatter?.noteOrder as number | undefined
+        const orderB = b.isFolder
+          ? b.data?.frontmatter?.folderOrder as number | undefined
+          : b.data?.frontmatter?.noteOrder as number | undefined
+
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          if (orderA !== undefined && orderB !== undefined) {
+            return orderA - orderB;
+          } else if (orderA !== undefined) {
+            return -1;
+          } else if (orderB !== undefined) {
+            return 1;
+          } else {
+            return a.displayName.localeCompare(b.displayName);
+          }
+        }
+
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+    }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -60,7 +87,34 @@ export const defaultListPageLayout: PageLayout = {
         // { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        const orderA = a.isFolder
+          ? a.data?.frontmatter?.folderOrder as number | undefined
+          : a.data?.frontmatter?.noteOrder as number | undefined
+        const orderB = b.isFolder
+          ? b.data?.frontmatter?.folderOrder as number | undefined
+          : b.data?.frontmatter?.noteOrder as number | undefined
+
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          if (orderA !== undefined && orderB !== undefined) {
+            return orderA - orderB;
+          } else if (orderA !== undefined) {
+            return -1;
+          } else if (orderB !== undefined) {
+            return 1;
+          } else {
+            return a.displayName.localeCompare(b.displayName);
+          }
+        }
+
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+    }),
   ],
   right: [],
 }
