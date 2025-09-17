@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Bread Wiki",
-    pageTitleSuffix: "Bread Docs",
+    pageTitleSuffix: " | Bread Wiki",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -20,11 +20,11 @@ const config: QuartzConfig = {
     ignorePatterns: [".obsidian", "**/readme.md", "**/README.md"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "BreadDisplay",
+        body: "BreadBody",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -70,14 +70,12 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      // Modify this configuration to enable prettylinks. See here for info https://quartz.jzhao.xyz/plugins/CrawlLinks
       Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
         prettyLinks: true,
         openLinksInNewTab: true,
         lazyLoad: true
       }),
-      // End modification
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
@@ -97,7 +95,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }

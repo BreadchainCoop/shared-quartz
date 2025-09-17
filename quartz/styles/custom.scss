@@ -1,3 +1,72 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// =============================================================================
+// BREAD BODY FONTS (Body Text)
+// =============================================================================
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Light.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Regular.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadBody';
+  src: url('/static/fonts/Bread Body Bold.woff2') format('woff2'),
+       url('/static/fonts/Bread Body Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// =============================================================================
+// BREAD DISPLAY FONTS (Headers)
+// =============================================================================
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Regular.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Bold.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BreadDisplay';
+  src: url('/static/fonts/Bread Display Black.woff2') format('woff2'),
+       url('/static/fonts/Bread Display Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// =============================================================================
+// TYPOGRAPHY REFINEMENTS
+// =============================================================================
+
+// Tight tracking for headers (matches design system)
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
