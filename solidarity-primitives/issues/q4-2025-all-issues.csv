@@ -1,0 +1,94 @@
+Issue Name,Repository,Link,Effort (1-5),Dependencies,Assignees,Description,Priority,Start Date,End Date
+"Refactor automation system","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/73",4,"","","Generic provider payment management system",High,2025-10-01,2025-10-14
+"Release 0.0.2","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/72",2,"#73,#65,#64","","Version 0.0.2 release preparation",Medium,2025-11-15,2025-11-22
+"Release 0.0.1","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/70",2,"#63,#42,#38","","Initial release preparation",High,2025-10-15,2025-10-22
+"E2E Testing","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/65",4,"","","End-to-end testing with decentralized frontend",High,2025-10-08,2025-10-21
+"Fuzz Testing","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/64",3,"","","Add fuzz testing to BreadKit Protocol",Medium,2025-10-01,2025-10-10
+"Refactor Unit Tests","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/63",2,"","","Convert to Bulloak format and review",Medium,2025-10-01,2025-10-07
+"Voting functions","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/62",3,"","","Add bytes parameter for downstream implementations",High,2025-10-15,2025-10-25
+"TimeWeightedVotingPower","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/48",4,"#62","","Implement time-weighted voting power strategy",High,2025-10-25,2025-11-07
+"Identifier emission","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/47",2,"","","Add identifier to DistributionStrategy",Low,2025-11-01,2025-11-07
+"Gelato Automation","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/46",3,"","","Review and implement Gelato integration",Medium,2025-11-08,2025-11-18
+"Optimize Queue Lookup","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/45",4,"","","Performance optimization for large queues",Medium,2025-11-01,2025-11-14
+"Chainlink Automation","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/44",3,"#46","","Support automation payment from yield",Medium,2025-11-18,2025-11-28
+"Store required votes","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/43",2,"","","Cache votes at proposal creation",Low,2025-12-01,2025-12-07
+"Refactor QueueProcessed","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/42",1,"","","Event refactoring for Recipient Registry",Low,2025-12-08,2025-12-10
+"Validate yield amount","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/38",2,"","","Validate against recipients and divisibility",High,2025-10-01,2025-10-07
+"Factory Pattern refactor","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/36",5,"#73","","Refactor modules to Factory Pattern",Low,2025-12-01,2025-12-21
+"NFT awarding module","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/24",3,"","","Generic NFT module for token holders",Low,2025-12-15,2025-12-25
+"Distribution Module","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/10",4,"#9","","Core distribution module implementation",Critical,2025-10-01,2025-10-14
+"Distribution Strategy","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/9",4,"","","Strategy module implementation",Critical,2025-10-01,2025-10-14
+"Voting Module","crowdstake.fun","https://github.com/BreadchainCoop/crowdstake.fun/issues/2",5,"#62,#48","","Signature-based voting with multiple strategies",Critical,2025-10-08,2025-10-28
+"Rename repository","breadchain","https://github.com/BreadchainCoop/breadchain/issues/173",1,"","","Repository naming update",Low,2025-12-20,2025-12-21
+"Test Upgrade Simulation","breadchain","https://github.com/BreadchainCoop/breadchain/issues/172",3,"","","Upgrade simulation testing for latest release",High,2025-10-15,2025-10-25
+"Release v1.0.5","breadchain","https://github.com/BreadchainCoop/breadchain/issues/171",2,"#172","","Version 1.0.5 release preparation",Medium,2025-11-22,2025-11-29
+"Voting Boost - Transactions","breadchain","https://github.com/BreadchainCoop/breadchain/issues/170",3,"","","Boost for users with BREAD transactions",Low,2025-12-01,2025-12-10
+"Boost - Never Burning","breadchain","https://github.com/BreadchainCoop/breadchain/issues/169",2,"","","Reward for not burning BREAD",Low,2025-12-01,2025-12-07
+"Boost - Baking Minimum","breadchain","https://github.com/BreadchainCoop/breadchain/issues/168",2,"","","Boost for baking at least 10 BREAD",Low,2025-12-08,2025-12-14
+"POAP Boost","breadchain","https://github.com/BreadchainCoop/breadchain/issues/167",3,"","","Add boost for community call attendance",Low,2025-12-08,2025-12-17
+"TBS NFT Boost","breadchain","https://github.com/BreadchainCoop/breadchain/issues/166",2,"","","Voting boost for NFT holders",Low,2025-12-15,2025-12-21
+"Release v1.0.4","breadchain","https://github.com/BreadchainCoop/breadchain/issues/164",2,"#141,#142","","Version 1.0.4 release preparation",Medium,2025-10-28,2025-11-04
+"Variable Delegations","breadchain","https://github.com/BreadchainCoop/breadchain/issues/156",4,"","","Explore VotesExtendedUpgradeable extensions",Low,2025-12-01,2025-12-14
+"CI/CD Auto-deploy","breadchain","https://github.com/BreadchainCoop/breadchain/issues/142",3,"","","Automated testnet deployments on merge",High,2025-10-01,2025-10-10
+"Upgrade Safety Check","breadchain","https://github.com/BreadchainCoop/breadchain/issues/141",3,"","","Automate upgrade safety in CI pipeline",High,2025-10-01,2025-10-10
+"Gelato Automation","breadchain","https://github.com/BreadchainCoop/breadchain/issues/136",3,"#46","","Gelato automation integration",Medium,2025-11-08,2025-11-18
+"Timelock for upgrades","breadchain","https://github.com/BreadchainCoop/breadchain/issues/132",4,"","","Add timelock mechanism for contract upgrades",High,2025-10-22,2025-11-04
+"Update Foundry Template","breadchain","https://github.com/BreadchainCoop/breadchain/issues/122",2,"","","Modernize Foundry template structure",Low,2025-12-15,2025-12-21
+"Namespaced storage","breadchain","https://github.com/BreadchainCoop/breadchain/issues/112",5,"","","Refactor to ERC-7201 storage patterns",Medium,2025-11-15,2025-12-05
+"Documentation Scope","breadchain","https://github.com/BreadchainCoop/breadchain/issues/111",3,"","","Complete documentation overhaul",Medium,2025-12-01,2025-12-10
+"Testing refactor","breadchain","https://github.com/BreadchainCoop/breadchain/issues/97",4,"","","Refactor test suite structure",Medium,2025-11-01,2025-11-14
+"Coupling addresses","breadchain","https://github.com/BreadchainCoop/breadchain/issues/81",3,"","","Link project addresses and distributions",Low,2025-12-08,2025-12-17
+"Fix deposit feature","saving-circles-frontend","https://github.com/BreadchainCoop/saving-circles-frontend/issues/1",4,"","","Fix deposit & enable reliable Circle details access",Critical,2025-10-01,2025-10-14
+"Automated Deposits","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/39",4,"","","ERC20 Allowance-Based Deposits & Batch Account Abstraction",High,2025-10-15,2025-10-28
+"Adapt creation flow","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/37",3,"","","Start off-chain with email then move on-chain",Medium,2025-11-01,2025-11-10
+"Fuzz Testing","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/20",3,"","","Implement Fuzz & Invariant Testing",Medium,2025-10-08,2025-10-17
+"Token allowlist","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/19",2,"","","Token allowlist deployment handling",High,2025-10-01,2025-10-07
+"Gas optimization","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/13",2,"","","Use multiple if-revert statements for gas savings",Low,2025-12-01,2025-12-07
+"Gelato Automation","saving-circles","https://github.com/BreadchainCoop/saving-circles/issues/8",3,"#46,#136","","Add Gelato Automation integration",Medium,2025-11-18,2025-11-28
+"Account abstraction","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/46",4,"","","Breaking account abstraction pattern for request creation",High,2025-10-22,2025-11-04
+"Flexible creation","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/42",3,"","","Enable Breadfund Creation Without Specifying All Users",Medium,2025-11-08,2025-11-17
+"Design variables","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/41",2,"","","Give design team list of configurable variables",Low,2025-12-01,2025-12-07
+"Deposit cap bug","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/40",4,"","","First deposit permanently fixes daily cap",Critical,2025-10-01,2025-10-14
+"No dues enforcement","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/39",3,"","","No exact dues enforcement for deposits",Critical,2025-10-01,2025-10-10
+"Withdrawables bug","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/38",4,"","","Large requests don't reduce member withdrawables",Critical,2025-10-01,2025-10-14
+"Withdrawal delay","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/33",3,"","","Research blanket withdrawal delay for liquidity",Medium,2025-11-15,2025-11-25
+"Automated deposits","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/32",4,"#39","","ERC20 Allowance-Based Deposits & Batch Account Abstraction",High,2025-10-15,2025-10-28
+"Prime-based crediting","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/31",4,"","","Actuarial entitlement not deposit-linked",Low,2025-12-01,2025-12-14
+"Liquidity ratio","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/30",3,"","","Liquidity-aware epoch ratio",Medium,2025-11-22,2025-12-01
+"Risk ratio formula","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/29",4,"","","Develop Context-Aware Risk Ratio Formula",Medium,2025-11-08,2025-11-21
+"V2 Proposals","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/28",3,"","","Proposals for V2 development",Low,2025-12-15,2025-12-24
+"Layman explanation","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/27",2,"","","Create simple explanation of system",Low,2025-12-08,2025-12-14
+"Lock ratio","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/25",2,"","","Lock ratio to 1 (disable leverage)",High,2025-10-08,2025-10-14
+"Notifications","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/24",3,"","","Notification Options for Withdrawal Voting Result",Medium,2025-11-15,2025-11-25
+"Input validation","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/23",2,"","","Add validation to prevent unsafe ratio values",High,2025-10-01,2025-10-07
+"Leverage research","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/21",5,"","","Liquidity-safe ratio > 1 (leverage & solvency)",Low,2025-12-01,2025-12-21
+"Deposit on behalf","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/19",3,"","","Add deposit on behalf of user using ERC20 balance",Medium,2025-11-01,2025-11-10
+"Contestation logic","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/14",3,"","","Change Contestation Threshold Logic for Withdrawal",Medium,2025-11-08,2025-11-17
+"Comprehensive tests","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/13",4,"","","Create tests for all contract functionality",High,2025-10-08,2025-10-21
+"Member limits","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/12",2,"","","Should struct include min/max members?",Low,2025-12-15,2025-12-21
+"View methods","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/11",2,"","","Add view methods aggregating all frontend data",Medium,2025-11-22,2025-11-28
+"Breadfunds Spec","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/9",3,"","","Core specification document",High,2025-10-01,2025-10-10
+"Insurance spec","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/8",3,"","","Bread Mutual Insurance fund spec V1.5",Medium,2025-10-15,2025-10-25
+"Sliding scale","breadfunds","https://github.com/BreadchainCoop/breadfunds/issues/4",3,"","","Sliding participation scale for users",Low,2025-12-08,2025-12-17
+"Process Tracking Design","breadfunds-app","https://github.com/BreadchainCoop/breadfunds-app/issues/2",3,"","","Design v1: Process Tracking for Breadfunds App",Medium,2025-11-01,2025-11-10
+"Data Display Design","breadfunds-app","https://github.com/BreadchainCoop/breadfunds-app/issues/1",2,"","","Design Deliverable: List of Data Displayed to User",Medium,2025-11-01,2025-11-07
+"Sharable Frame Popup","farcaster-donate-to-gaza","https://github.com/BreadchainCoop/farcaster-donate-to-gaza/issues/12",3,"","","Add sharable frame popup post-donation with Farcaster integration",Medium,2025-11-15,2025-11-25
+"Implement Distribution Manager","crowdstake.fun","N/A",5,"#9,#10","","Complete missing core distribution manager implementation",Critical,2025-10-01,2025-10-21
+"Complete Voting Logic","crowdstake.fun","N/A",4,"#2,#62","","Finish DefaultYieldClaimer voting implementation",Critical,2025-10-08,2025-10-21
+"Security Audit Preparation","All","N/A",5,"ALL","","Comprehensive security audit of all contracts",Critical,2025-12-15,2025-12-31
+"Repository Rebranding","saving-circles","N/A",2,"","","Rename saving-circles to stacks",Medium,2025-10-01,2025-10-03
+"Repository Rebranding","breadfunds","N/A",2,"","","Rename breadfunds to safety-net",Medium,2025-10-01,2025-10-03
+"Frontend Web3 Integration","breadfunds-app","N/A",4,"","","Add wallet connection and contract interaction",Critical,2025-10-08,2025-10-21
+"State Management Solution","breadfunds-app","N/A",3,"","","Implement global state management",High,2025-10-15,2025-10-25
+"Package Name Fixes","All","N/A",2,"","","Fix all wrong package names in repos",High,2025-10-01,2025-10-04
+"Dependency Updates","All","N/A",3,"","","Update all dependencies from 'latest' to pinned versions",High,2025-10-01,2025-10-07
+"CI/CD Implementation","All","N/A",4,"#141,#142","","Implement comprehensive CI/CD across all repos",Critical,2025-10-01,2025-10-14
+"Test Coverage 90%","All","N/A",5,"#63,#64,#20,#13","","Achieve 90% test coverage across all repositories",Critical,2025-10-15,2025-11-15
+"Documentation Complete","All","N/A",4,"#111","","Complete all technical and user documentation",High,2025-11-15,2025-12-07
+"Multi-sig Setup","All","N/A",3,"","","Configure multi-sig wallets for all contracts",Critical,2025-10-01,2025-10-07
+"Shared Visions MVP","Shared Visions","N/A",5,"","","Build MVP of cooperative coordination platform",High,2025-11-01,2025-12-15
+"Bounty System Launch","Bounty System","N/A",3,"","Ron","Launch nested multisig and bounty program",Critical,2025-10-01,2025-10-10
+"Gas Killer v0.2","Gas Killer","N/A",5,"ALL GK","","Complete Gas Killer v0.2 release",Critical,2025-10-01,2025-12-31
+"First Gas Killer Client","Gas Killer","N/A",4,"","","Acquire first paying Gas Killer client",Critical,2025-10-15,2025-11-30
+"Grant Applications","All","N/A",3,"","","Submit grant applications for $100k+ funding",Critical,2025-10-01,2025-10-31
+"Community Events","Brand","N/A",2,"","","Host weekly community events",Ongoing,2025-10-01,2025-12-31
