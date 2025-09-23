@@ -25,16 +25,16 @@
 
 ## Solidarity Primitives Detailed Breakdown
 
-| Project | Action Items | Deliverables/Success Metrics | Status |
-|---------|--------------|------------------------------|--------|
-| **Crowdstaking App** | Maintenance and development | Continued operation and improvements | Ongoing |
-| **Stacks** | Development of v1 | Launch Stacks App | Q4 Target |
-| | User acquisition | Get first users of Stacks | Q4 Target |
-| | Design v2 architecture | Smart contracts Specs for Stacks v2 | Q4 Target |
-| **Safety Net** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target |
-| **Farcaster Mini Apps** | Development | Mini apps deployed | Q4 Target |
-| **Bread Kit** | Smart contract development | BreadKit smart contracts published | Q4 Target |
-| | Feature implementation | BreadKit partial feature parity (excluding BB) with current Solidarity Fund | Q4 Target |
-| **OBDollar/CoopStable** | Development | Stablecoin infrastructure | Q4 Target |
-| **Product Strategy** | Design and planning | Focused product roadmap | Ongoing |
-| **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing |
+| Project | Action Items | Deliverables/Success Metrics | Status | Details |
+|---------|--------------|------------------------------|--------|---------|
+| **[Crowdstaking App](solidarity-primitives/crowdstaking-app.md)** | Maintenance and development | Continued operation and improvements | Ongoing | See detailed file |
+| **[Stacks](solidarity-primitives/stacks.md)** | Development of v1 | Launch Stacks App | Q4 Target | See detailed file |
+| | User acquisition | Get first users of Stacks | Q4 Target | |
+| | Design v2 architecture | Smart contracts Specs for Stacks v2 | Q4 Target | |
+| **[Safety Net](solidarity-primitives/safety-net.md)** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target | See detailed file |
+| **[Ibrahim Mini App](solidarity-primitives/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
+| **[Solidarity Fund Mini App](solidarity-primitives/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
+| **[Bread Kit](solidarity-primitives/bread-kit.md)** | Smart contract development | BreadKit smart contracts published | Q4 Target | See detailed file |
+| | Feature implementation | BreadKit partial feature parity (excluding BB) with current Solidarity Fund | Q4 Target | |
+| **Product Strategy** | Design and planning | Focused product roadmap | Ongoing | |
+| **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing | |
