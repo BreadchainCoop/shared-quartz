@@ -21,17 +21,23 @@
 | | Engagement with member projects | More updates from member projects | |
 | | Various admin tasks | | |
 | | Engagement with other DAOs (Gnosis, Optimism) | Increase TVL of BREAD (reach 500k) | |
-| **Priority 3: Solidarity Primitives** | Crowdstaking App maintenance/development | | 40% |
-| | Stacks development | Launch Stacks App | |
-| | | Get first users of Stacks | |
-| | | Smart contracts Specs for Stacks v2 | |
-| | Safety Net development | Smart contracts for Safety Net v1 | |
-| | Farcaster Mini Apps | | |
-| | Product strategy and design | | |
-| | Bread Kit development | BreadKit smart contracts published | |
-| | | BreadKit partial feature parity with current Solidarity Fund | |
-| | OBDollar and CoopStable | | |
-| | Open source contributor recruitment | More open source contributors | |
+| **Priority 3: Solidarity Primitives** | See detailed breakdown below | See detailed breakdown below | 40% |
+
+## Solidarity Primitives Detailed Breakdown
+
+| Project | Action Items | Deliverables/Success Metrics | Status |
+|---------|--------------|------------------------------|--------|
+| **Crowdstaking App** | Maintenance and development | Continued operation and improvements | Ongoing |
+| **Stacks** | Development of v1 | Launch Stacks App | Q4 Target |
+| | User acquisition | Get first users of Stacks | Q4 Target |
+| | Design v2 architecture | Smart contracts Specs for Stacks v2 | Q4 Target |
+| **Safety Net** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target |
+| **Farcaster Mini Apps** | Development | Mini apps deployed | Q4 Target |
+| **Bread Kit** | Smart contract development | BreadKit smart contracts published | Q4 Target |
+| | Feature implementation | BreadKit partial feature parity (excluding BB) with current Solidarity Fund | Q4 Target |
+| **OBDollar/CoopStable** | Development | Stablecoin infrastructure | Q4 Target |
+| **Product Strategy** | Design and planning | Focused product roadmap | Ongoing |
+| **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing |
 
 ## Financial Deliverables
 
