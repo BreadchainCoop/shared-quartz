@@ -18,10 +18,13 @@ gitGraph
     branch sn-sc
 
     checkout sf-sc
-    commit id: "SF-SC: Distribution Manager"
-    commit id: "SF-SC: Voting Module"
-    commit id: "SF-SC: Vote Aggregation"
-    commit id: "SF-SC: Security Audit"
+    commit id: "SF-SC: YieldDistributor Core"
+    commit id: "SF-SC: VotingMultipliers System"
+    commit id: "SF-SC: Cycle-based Distribution"
+    commit id: "SF-SC: Fixed Split Mechanism"
+    commit id: "SF-SC: Project Management"
+    commit id: "SF-SC: Min Voting Power"
+    commit id: "SF-SC: Checkpoints Integration"
     commit id: "SF-SC: Ready Nov 10"
 
     checkout st-sc
@@ -45,7 +48,6 @@ gitGraph
     commit id: "SN-SC: Contestation (#14)"
     commit id: "SN-SC: Risk Ratio (#29)"
     commit id: "SN-SC: View Methods (#11)"
-    commit id: "SN-SC: Security Audit"
     commit id: "SN-SC: Ready Dec 1"
 
     checkout main
@@ -58,11 +60,14 @@ gitGraph
     branch sn-fe
 
     checkout sf-fe
-    commit id: "SF-FE: Landing Page"
-    commit id: "SF-FE: Goal Calculator"
+    commit id: "SF-FE: Governance Dashboard"
+    commit id: "SF-FE: Project Voting Interface"
+    commit id: "SF-FE: Multipliers Display"
+    commit id: "SF-FE: Cycle Countdown Timer"
+    commit id: "SF-FE: Voting Power Display"
+    commit id: "SF-FE: Distribution History"
+    commit id: "SF-FE: Project Analytics"
     commit id: "SF-FE: Wallet Integration"
-    commit id: "SF-FE: Cycle Navigation"
-    commit id: "SF-FE: Distribution Viz"
     commit id: "SF-FE: IPFS Deploy"
     commit id: "SF-FE: Ready Nov 10"
 
@@ -78,11 +83,12 @@ gitGraph
     commit id: "ST-FE: Ready Nov 20"
 
     checkout sn-fe
-    commit id: "SN-FE: Process Tracking UI"
-    commit id: "SN-FE: Data Display List"
-    commit id: "SN-FE: Fund Creation Flow"
-    commit id: "SN-FE: Withdrawal Interface"
-    commit id: "SN-FE: Notification System"
+    commit id: "SN-FE: [Placeholder] Dashboard"
+    commit id: "SN-FE: [Placeholder] Fund Management"
+    commit id: "SN-FE: [Placeholder] Member Portal"
+    commit id: "SN-FE: [Placeholder] Claims Interface"
+    commit id: "SN-FE: [Placeholder] Voting System"
+    commit id: "SN-FE: [Placeholder] Analytics"
     commit id: "SN-FE: Ready Dec 1"
 
     checkout main
@@ -115,9 +121,8 @@ gantt
     Reown Wallet Integration        :sf6, 2025-10-12, 2025-10-16
     Cycle Navigation UI             :sf7, 2025-10-14, 2025-10-18
     Distribution Visualization      :sf8, 2025-10-16, 2025-10-21
-    Security Audit                  :sf9, 2025-10-22, 2025-11-08
-    IPFS Deployment Setup           :sf10, 2025-11-08, 2025-11-14
-    Mainnet Launch                  :crit, milestone, sf11, 2025-11-15, 1d
+    IPFS Deployment Setup           :sf9, 2025-11-08, 2025-11-14
+    Mainnet Launch                  :crit, milestone, sf10, 2025-11-15, 1d
 
     section Stacks MVP
     Repository Rebrand              :st1, 2025-10-01, 2025-10-03
@@ -150,8 +155,7 @@ gantt
     Contestation Logic (#14)        :sn8, 2025-10-22, 2025-10-25
     Risk Ratio Formula (#29)        :sn9, 2025-10-29, 2025-11-05
     View Methods (#11)              :sn10, 2025-10-20, 2025-10-22
-    Security Audit                  :sn11, 2025-11-29, 2025-12-06
-    Mainnet Launch                  :crit, milestone, sn12, 2025-12-06, 1d
+    Mainnet Launch                  :crit, milestone, sn11, 2025-12-06, 1d
 
 ```
 
@@ -159,35 +163,61 @@ gantt
 
 ```mermaid
 flowchart TD
-    A[Q4 Start: Oct 1] --> B[Repository Rebranding]
-    B --> C{Parallel MVP Development}
+    A[Q4 2025 Start: Oct 1] --> B[Teams Setup]
+    B --> C{Parallel Development}
 
-    C --> D[Solidarity Fund MVP]
-    C --> E[Stacks MVP]
-    C --> F[Safety Net MVP]
+    C --> SC[Smart Contracts]
+    C --> FE[Frontend]
 
-    D --> D1[Distribution Manager<br/>Voting Module<br/>Vote Aggregation]
-    D1 --> D2[Solidarity Fund Features:<br/>Landing Page<br/>Goal Calculator<br/>Wallet Integration]
-    D2 --> D3[UI Components:<br/>Cycle Navigation<br/>Distribution Viz]
-    D3 --> D4[🚀 SF Mainnet: Nov 15]
+    SC --> SF-SC[Solidarity Fund SC]
+    SC --> ST-SC[Stacks SC]
+    SC --> SN-SC[Safety Net SC]
 
-    E --> E1[Critical Fixes:<br/>Deposit Bug #1<br/>Circle Details]
-    E1 --> E2[Frontend Development:<br/>Circle Creation UI<br/>Member Dashboard<br/>Deposit/Withdraw UI]
-    E2 --> E3[Core Features:<br/>Token Allowlist #19<br/>Auto Deposits #39<br/>Off-chain Flow #37]
-    E3 --> E4[UX Enhancement:<br/>Mobile Design<br/>Payment History<br/>Notifications]
-    E4 --> E5[Optimization:<br/>Gelato #8<br/>Gas Opt #13<br/>Testing Suite]
-    E5 --> E6[🚀 Stacks Mainnet: Nov 25]
+    FE --> SF-FE[Solidarity Fund FE]
+    FE --> ST-FE[Stacks FE]
+    FE --> SN-FE[Safety Net FE]
 
-    F --> F1[Critical Bugs:<br/>Deposit Cap #40<br/>Withdrawables #38<br/>Dues #39]
-    F1 --> F2[Core Features:<br/>Auto Deposits #32<br/>Flexible Creation #42<br/>Contestation #14]
-    F2 --> F3[Risk Features:<br/>Ratio Formula #29<br/>View Methods #11]
-    F3 --> F4[🚀 Safety Net Mainnet: Dec 6]
+    SF-SC --> SFC1[YieldDistributor Core<br/>VotingMultipliers<br/>Cycle Distribution]
+    SFC1 --> SFC2[Fixed Split<br/>Project Management<br/>Min Voting Power]
+    SFC2 --> SFC3[Checkpoints<br/>Integration]
 
-    D4 --> H[Q4 Complete: All MVPs Live]
-    E6 --> H
-    F4 --> H
+    SF-FE --> SFF1[Governance Dashboard<br/>Project Voting<br/>Multipliers Display]
+    SFF1 --> SFF2[Cycle Timer<br/>Voting Power<br/>Distribution History]
+    SFF2 --> SFF3[Project Analytics<br/>Wallet Integration<br/>IPFS Deploy]
 
-    style D4 fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
-    style E6 fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
-    style F4 fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
+    SFC3 --> SF-READY[SF Ready Nov 10]
+    SFF3 --> SF-READY
+    SF-READY --> SF-LAUNCH[🚀 SF Launch Nov 15]
+
+    ST-SC --> STC1[Fix Deposit #1<br/>Fix Circle Details<br/>Token Allowlist #19]
+    STC1 --> STC2[Auto Deposits #39<br/>Off-chain Flow #37<br/>Gelato #8]
+    STC2 --> STC3[Gas Opt #13<br/>Fuzz Testing #20]
+
+    ST-FE --> STF1[Circle Creation UI<br/>Member Dashboard<br/>Deposit/Withdraw UI]
+    STF1 --> STF2[Mobile Design<br/>Payment History<br/>Notifications]
+    STF2 --> STF3[Frontend Testing<br/>CI/CD Pipeline]
+
+    STC3 --> ST-READY[ST Ready Nov 20]
+    STF3 --> ST-READY
+    ST-READY --> ST-LAUNCH[🚀 Stacks Launch Nov 25]
+
+    SN-SC --> SNC1[Fix Deposit Cap #40<br/>Fix Withdrawables #38<br/>Exact Dues #39]
+    SNC1 --> SNC2[Input Validation #23<br/>Auto Deposits #32<br/>Flexible Creation #42]
+    SNC2 --> SNC3[Contestation #14<br/>Risk Ratio #29<br/>View Methods #11]
+
+    SN-FE --> SNF1[<b>PLACEHOLDER</b>:<br/>Dashboard<br/>Fund Management<br/>Member Portal]
+    SNF1 --> SNF2[<b>PLACEHOLDER</b>:<br/>Claims Interface<br/>Voting System<br/>Analytics]
+
+    SNC3 --> SN-READY[SN Ready Dec 1]
+    SNF2 --> SN-READY
+    SN-READY --> SN-LAUNCH[🚀 Safety Net Launch Dec 6]
+
+    SF-LAUNCH --> COMPLETE[✅ Q4 Complete]
+    ST-LAUNCH --> COMPLETE
+    SN-LAUNCH --> COMPLETE
+
+    style SF-LAUNCH fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
+    style ST-LAUNCH fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
+    style SN-LAUNCH fill:#4CAF50,stroke:#2E7D32,stroke-width:3px
+    style COMPLETE fill:#FFD700,stroke:#FFA500,stroke-width:3px
 ```
