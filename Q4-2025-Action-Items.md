@@ -38,34 +38,3 @@
 | **OBDollar/CoopStable** | Development | Stablecoin infrastructure | Q4 Target |
 | **Product Strategy** | Design and planning | Focused product roadmap | Ongoing |
 | **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing |
-
-## Financial Deliverables
-
-| Item | Amount/Status |
-|------|--------------|
-| Expected Revenue - EigenLayer | 100k EIGEN over 1 year |
-| Expected Revenue - COVA | $14k |
-| Projected Burn Rate | ~$11k |
-| Treasury Target Runway | 8 months |
-| Outstanding Payment - Ajinkya | ~$6000 owed |
-| Outstanding Payment - dijar | $1625 owed |
-
-## Risk Mitigation Actions
-
-| Risk Factor | Mitigation Action |
-|------------|-------------------|
-| Eigen token price tank | Convert half to stables immediately |
-| Skyline Issues | Look for alternatives |
-| No new client revenue | Grant application spree |
-| Major crypto downturn | Convert as much as possible into BREAD/stables |
-| Major public goods funding initiatives | Divert non-technical labor towards applying |
-| Not enough dev labor time | More active recruiting |
-
-## Key Dates
-- **Effective Date**: September 17th
-- **Quarter End Target**: Gas Killer v0.2 Release by end of Q4 2025
-
-## Approved By
-- Joshua Davila
-- Ruben Russel  
-- Sara Bajor
