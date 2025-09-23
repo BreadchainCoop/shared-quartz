@@ -35,8 +35,8 @@
 | | User acquisition | Get first users of Stacks | Q4 Target | |
 | | Design v2 architecture | Smart contracts Specs for Stacks v2 | Q4 Target | |
 | **[Safety Net](solidarity-primitives/safety-net.md)** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target | See detailed file |
-| **[Ibrahim Mini App](solidarity-primitives/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
-| **[Solidarity Fund Mini App](solidarity-primitives/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
+| **[Ibrahim Mini App](solidarity-primitives/mini-apps/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
+| **[Solidarity Fund Mini App](solidarity-primitives/mini-apps/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
 | **[Shared Visions](solidarity-primitives/shared-visions.md)** | Cooperative coordination platform | Inter-cooperative service exchange and resource sharing | Q4 Target | See detailed file with full ecosystem |
 | **[Bounty System](solidarity-primitives/bounty-system.md)** | Incentive mechanism for development | $750/month for bounties on core infrastructure | Q4 Target | See detailed file with governance |
 | **Product Strategy** | Design and planning | Focused product roadmap | Ongoing | |
