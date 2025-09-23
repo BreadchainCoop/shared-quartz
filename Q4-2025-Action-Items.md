@@ -27,14 +27,14 @@
 
 | Project | Action Items | Deliverables/Success Metrics | Status | Details |
 |---------|--------------|------------------------------|--------|---------|
-| **[Crowdstaking App](solidarity-primitives/crowdstaking-app.md)** | Maintenance and development | Continued operation and improvements | Ongoing | See detailed file |
+| **[Solidarity Fund](solidarity-primitives/solidarity-fund.md)** | Smart contract development | Smart contracts published and verified | Q4 Target | See detailed file with 39 GitHub issues |
+| | Feature implementation | Partial feature parity (excluding BB) with current system | Q4 Target | |
+| | Rebrand integration | Complete app rebrand with new design system | Q4 Target | |
 | **[Stacks](solidarity-primitives/stacks.md)** | Development of v1 | Launch Stacks App | Q4 Target | See detailed file |
 | | User acquisition | Get first users of Stacks | Q4 Target | |
 | | Design v2 architecture | Smart contracts Specs for Stacks v2 | Q4 Target | |
 | **[Safety Net](solidarity-primitives/safety-net.md)** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target | See detailed file |
 | **[Ibrahim Mini App](solidarity-primitives/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
 | **[Solidarity Fund Mini App](solidarity-primitives/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
-| **[Bread Kit](solidarity-primitives/bread-kit.md)** | Smart contract development | BreadKit smart contracts published | Q4 Target | See detailed file |
-| | Feature implementation | BreadKit partial feature parity (excluding BB) with current Solidarity Fund | Q4 Target | |
 | **Product Strategy** | Design and planning | Focused product roadmap | Ongoing | |
 | **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing | |
