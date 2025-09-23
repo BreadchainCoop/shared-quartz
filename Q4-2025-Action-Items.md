@@ -37,5 +37,6 @@
 | **[Ibrahim Mini App](solidarity-primitives/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
 | **[Solidarity Fund Mini App](solidarity-primitives/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
 | **[Shared Visions](solidarity-primitives/shared-visions.md)** | Cooperative coordination platform | Inter-cooperative service exchange and resource sharing | Q4 Target | See detailed file with full ecosystem |
+| **[Bounty System](solidarity-primitives/bounty-system.md)** | Incentive mechanism for development | $750/month for bounties on core infrastructure | Q4 Target | See detailed file with governance |
 | **Product Strategy** | Design and planning | Focused product roadmap | Ongoing | |
 | **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing | |
