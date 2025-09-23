@@ -11,6 +11,24 @@ The Solidarity Fund is the core infrastructure for Bread Cooperative's solidarit
 - **Target**: Q4 2025
 - **Budget**: Part of 40% Solidarity Primitives allocation
 
+### CI/CD & Deployment Infrastructure
+- **Automatic CI/CD Pipeline**
+  - Automated testing on every pull request
+  - Automatic deployment to testnet on merge to development
+  - Production deployment pipeline with multi-sig approval
+  - Contract verification automation on all networks
+- **Upgrade Safety Validation**
+  - Automated upgrade safety checks using OpenZeppelin Defender
+  - Storage layout validation to prevent upgrade conflicts
+  - Simulation of upgrades on forked mainnet before deployment
+  - Automated compatibility testing for proxy patterns
+- **Decentralized Frontend Deployment**
+  - IPFS deployment for frontend application
+  - ENS integration for decentralized domain resolution
+  - Arweave backup for permanent storage
+  - Automated deployment to multiple gateways (Fleek, Pinata)
+- **Effort**: 3
+
 ### Feature Implementation
 - **Action**: Implement feature parity with current system
 - **Deliverable**: Partial feature parity (excluding BB) with current Solidarity Fund
@@ -79,6 +97,10 @@ The Solidarity Fund is the core infrastructure for Bread Cooperative's solidarit
 - Open source repository established with clear contribution guidelines
 - Complete rebrand integration with new design system
 - Resolution of high-priority GitHub issues
+- 100% automated CI/CD pipeline operational
+- Zero manual deployment steps required
+- Frontend accessible via at least 3 decentralized gateways
+- All contract upgrades pass automated safety validation
 
 ## Effort Estimation Guide
 - **1**: Trivial change (< 2 hours)

@@ -11,6 +11,23 @@ Ibrahim Mini App is a Farcaster-based mini application for charitable donations,
 - **Target**: Q4 2025
 - **Budget**: Part of 40% Solidarity Primitives allocation
 
+### CI/CD & Deployment Infrastructure
+- **Automatic CI/CD Pipeline**
+  - Automated testing on every pull request
+  - Automatic deployment to testnet frames on merge to development
+  - Production deployment pipeline with review approval
+  - Frame verification automation
+- **Decentralized Deployment**
+  - IPFS deployment for frame assets
+  - Arweave backup for permanent storage
+  - Multiple gateway deployment (Fleek, Pinata)
+  - Farcaster frame caching optimization
+- **Upgrade Safety**
+  - Automated frame compatibility testing
+  - Version rollback capabilities
+  - A/B testing infrastructure for frame updates
+- **Effort**: 2
+
 ## Deliverables
 - Functional mini app deployed to Farcaster
 - Integration with Bread Cooperative ecosystem
@@ -23,6 +40,10 @@ Ibrahim Mini App is a Farcaster-based mini application for charitable donations,
 - Integration with existing Solidarity Primitives
 - Total donation volume facilitated
 - Number of unique donors engaged
+- 100% automated CI/CD pipeline operational
+- Zero manual deployment steps required
+- Frame accessible via at least 3 decentralized gateways
+- All frame updates pass compatibility validation
 
 ## Technical Scope
 - Farcaster frame development

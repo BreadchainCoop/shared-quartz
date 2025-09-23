@@ -51,9 +51,27 @@ Safety Net is a Solidarity Primitive designed to provide mutual aid and support 
 - **Prime-based crediting system** (Issue #31)
 - **Effort**: 4
 
-#### 7. Production Deployment
+#### 7. CI/CD & Deployment Infrastructure
+- **Automatic CI/CD Pipeline**
+  - Automated testing on every pull request
+  - Automatic deployment to testnet on merge to development
+  - Production deployment pipeline with multi-sig approval
+  - Contract verification automation on all networks
+- **Upgrade Safety Validation**
+  - Automated upgrade safety checks using OpenZeppelin Defender
+  - Storage layout validation to prevent upgrade conflicts
+  - Simulation of upgrades on forked mainnet before deployment
+  - Automated compatibility testing for proxy patterns
+- **Decentralized Frontend Deployment**
+  - IPFS deployment for frontend application
+  - ENS integration for decentralized domain resolution
+  - Arweave backup for permanent storage
+  - Automated deployment to multiple gateways (Fleek, Pinata)
+- **Effort**: 3
+
+#### 8. Production Deployment
 - **Deploy smart contracts to mainnet**
-- **Launch production frontend application**
+- **Launch production frontend via decentralized infrastructure**
 - **Set up monitoring and alerting**
 - **Create user documentation and guides**
 - **Provide design team with configurable variables list** (Issue #41)
@@ -161,6 +179,10 @@ Safety Net is a Solidarity Primitive designed to provide mutual aid and support 
 - Process $5,000+ in mutual aid transactions
 - Complete documentation for contract interaction
 - Pass security audit with no critical findings
+- 100% automated CI/CD pipeline operational
+- Zero manual deployment steps required
+- Frontend accessible via at least 3 decentralized gateways
+- All contract upgrades pass automated safety validation
 
 ## Effort Estimation Guide
 - **1**: Trivial change (< 2 hours)
