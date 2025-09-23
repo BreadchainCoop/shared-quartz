@@ -36,5 +36,6 @@
 | **[Safety Net](solidarity-primitives/safety-net.md)** | Smart contract development | Smart contracts for Safety Net v1 | Q4 Target | See detailed file |
 | **[Ibrahim Mini App](solidarity-primitives/ibrahim-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
 | **[Solidarity Fund Mini App](solidarity-primitives/solidarity-fund-mini-app.md)** | Farcaster app development | Mini app deployed on Farcaster | Q4 Target | See detailed file |
+| **[Shared Visions](solidarity-primitives/shared-visions.md)** | Cooperative coordination platform | Inter-cooperative service exchange and resource sharing | Q4 Target | See detailed file with full ecosystem |
 | **Product Strategy** | Design and planning | Focused product roadmap | Ongoing | |
 | **Open Source Initiative** | Contributor recruitment | More open source contributors | Ongoing | |
