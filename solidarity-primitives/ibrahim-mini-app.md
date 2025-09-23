@@ -11,6 +11,30 @@ Ibrahim Mini App is a Farcaster-based mini application for charitable donations,
 - **Target**: Q4 2025
 - **Budget**: Part of 40% Solidarity Primitives allocation
 
+### Critical Code Review Findings
+
+**Repository Issues:**
+- **Old Next.js Version** - Using 14.1.0 while others use 15.x
+- **Lock File Conflicts** - Has both package-lock.json and bun.lockb
+- **Hardcoded Localhost** - Environment variables set to localhost
+- **No CI/CD Pipeline** - No GitHub Actions or automation
+- **Effort**: 2
+
+**Security Concerns:**
+- **API Key Exposure** - External service keys not secured
+- **Basic CORS Setup** - ALLOWED_ORIGIN needs hardening
+- **No Wallet Security** - Missing connection security measures
+- **No Input Sanitization** - Missing donation input validation
+- **Effort**: 3
+
+**Missing Features:**
+- **No Transaction Monitoring** - No on-chain verification
+- **No Analytics Dashboard** - Missing donation tracking
+- **No Error Recovery** - No retry for failed transactions
+- **Single Chain Only** - No multi-chain support
+- **No Rate Limiting** - API endpoints unprotected
+- **Effort**: 3
+
 ### CI/CD & Deployment Infrastructure
 - **Automatic CI/CD Pipeline**
   - Automated testing on every pull request
