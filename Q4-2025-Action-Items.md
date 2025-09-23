@@ -4,7 +4,8 @@
 
 | Priority Area | Action Item/Deliverable | Success Metric | Budget Allocation |
 |--------------|-------------------------|----------------|-------------------|
-| **Priority 1: Shared Security** | Gas Killer development | Gas Killer v0.2 Release | 90% EigenLayer grant + 10% Bread Coop |
+| **Priority 1: Shared Security** | [Gas Killer comprehensive plan](shared-security/gas-killer.md) | See detailed file | 90% EigenLayer grant + 10% Bread Coop |
+| | Gas Killer development | Gas Killer v0.2 Release | |
 | | Client/Eigen grant work | First Gas Killer client | |
 | | Business development for GK opportunities | New client in shared security | |
 | | Market research for Gas Killer | Increased domain knowledge | |
