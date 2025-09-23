@@ -7,109 +7,94 @@ This gitgraph shows the actual MVP feature development for three Solidarity Prim
 
 ```mermaid
 gitGraph
-    commit id: "Q4 2025 Start"
-    commit id: "Rebranding & Setup"
+    commit id: "Q4 2025 Start - Oct 1"
 
-    branch solidarity-fund
-    checkout solidarity-fund
-    commit id: "SF: Init"
+    branch smart-contracts
+    checkout smart-contracts
+    commit id: "SC: Teams Setup"
 
-    branch sf-contracts
-    checkout sf-contracts
-    commit id: "SF: Distribution Manager"
-    commit id: "SF: Voting Module"
-    commit id: "SF: Vote Aggregation"
-    checkout solidarity-fund
-    merge sf-contracts
+    branch sf-sc
+    branch st-sc
+    branch sn-sc
 
-    branch sf-frontend
-    checkout sf-frontend
-    commit id: "SF: Landing Page"
-    commit id: "SF: Goal Calculator"
-    commit id: "SF: Wallet Integration"
-    commit id: "SF: Cycle Navigation"
-    commit id: "SF: Distribution Viz"
-    checkout solidarity-fund
-    merge sf-frontend
+    checkout sf-sc
+    commit id: "SF-SC: Distribution Manager"
+    commit id: "SF-SC: Voting Module"
+    commit id: "SF-SC: Vote Aggregation"
+    commit id: "SF-SC: Security Audit"
+    commit id: "SF-SC: Ready Nov 10"
 
-    commit id: "SF: Security Audit"
-    commit id: "SF: IPFS Deploy"
+    checkout st-sc
+    commit id: "ST-SC: Fix Deposit (#1)"
+    commit id: "ST-SC: Fix Circle Details"
+    commit id: "ST-SC: Token Allowlist (#19)"
+    commit id: "ST-SC: Auto Deposits (#39)"
+    commit id: "ST-SC: Off-chain Flow (#37)"
+    commit id: "ST-SC: Gelato (#8)"
+    commit id: "ST-SC: Gas Opt (#13)"
+    commit id: "ST-SC: Fuzz Testing (#20)"
+    commit id: "ST-SC: Ready Nov 20"
+
+    checkout sn-sc
+    commit id: "SN-SC: Fix Deposit Cap (#40)"
+    commit id: "SN-SC: Fix Withdrawables (#38)"
+    commit id: "SN-SC: Exact Dues (#39)"
+    commit id: "SN-SC: Input Validation (#23)"
+    commit id: "SN-SC: Auto Deposits (#32)"
+    commit id: "SN-SC: Flexible Creation (#42)"
+    commit id: "SN-SC: Contestation (#14)"
+    commit id: "SN-SC: Risk Ratio (#29)"
+    commit id: "SN-SC: View Methods (#11)"
+    commit id: "SN-SC: Security Audit"
+    commit id: "SN-SC: Ready Dec 1"
+
+    checkout main
+    branch frontend
+    checkout frontend
+    commit id: "FE: Teams Setup"
+
+    branch sf-fe
+    branch st-fe
+    branch sn-fe
+
+    checkout sf-fe
+    commit id: "SF-FE: Landing Page"
+    commit id: "SF-FE: Goal Calculator"
+    commit id: "SF-FE: Wallet Integration"
+    commit id: "SF-FE: Cycle Navigation"
+    commit id: "SF-FE: Distribution Viz"
+    commit id: "SF-FE: IPFS Deploy"
+    commit id: "SF-FE: Ready Nov 10"
+
+    checkout st-fe
+    commit id: "ST-FE: Circle Creation UI"
+    commit id: "ST-FE: Member Dashboard"
+    commit id: "ST-FE: Deposit/Withdraw UI"
+    commit id: "ST-FE: Mobile Design"
+    commit id: "ST-FE: Payment History"
+    commit id: "ST-FE: Notifications"
+    commit id: "ST-FE: Frontend Testing"
+    commit id: "ST-FE: CI/CD Pipeline"
+    commit id: "ST-FE: Ready Nov 20"
+
+    checkout sn-fe
+    commit id: "SN-FE: Process Tracking UI"
+    commit id: "SN-FE: Data Display List"
+    commit id: "SN-FE: Fund Creation Flow"
+    commit id: "SN-FE: Withdrawal Interface"
+    commit id: "SN-FE: Notification System"
+    commit id: "SN-FE: Ready Dec 1"
+
+    checkout main
+    merge sf-sc
+    merge sf-fe
     commit id: "🚀 SF Launch Nov 15"
-
-    checkout main
-    branch stacks
-    checkout stacks
-    commit id: "ST: Rebrand"
-
-    branch st-fixes
-    checkout st-fixes
-    commit id: "ST: Fix Deposit (#1)"
-    commit id: "ST: Fix Circle Details"
-    checkout stacks
-    merge st-fixes
-
-    branch st-frontend
-    checkout st-frontend
-    commit id: "ST: Circle Creation UI"
-    commit id: "ST: Member Dashboard"
-    commit id: "ST: Deposit/Withdraw UI"
-    commit id: "ST: Mobile Design"
-    commit id: "ST: Payment History"
-    commit id: "ST: Notifications"
-    checkout stacks
-
-    branch st-backend
-    checkout st-backend
-    commit id: "ST: Token Allowlist (#19)"
-    commit id: "ST: Auto Deposits (#39)"
-    commit id: "ST: Off-chain Flow (#37)"
-    commit id: "ST: Gelato (#8)"
-    commit id: "ST: Gas Opt (#13)"
-    checkout stacks
-    merge st-frontend
-    merge st-backend
-
-    commit id: "ST: Testing Suite"
-    commit id: "ST: CI/CD Pipeline"
-    commit id: "🚀 ST Launch Nov 25"
-
-    checkout main
-    branch safety-net
-    checkout safety-net
-    commit id: "SN: Rebrand"
-
-    branch sn-critical
-    checkout sn-critical
-    commit id: "SN: Fix Deposit Cap (#40)"
-    commit id: "SN: Fix Withdrawables (#38)"
-    commit id: "SN: Exact Dues (#39)"
-    commit id: "SN: Input Validation (#23)"
-    checkout safety-net
-    merge sn-critical
-
-    branch sn-features
-    checkout sn-features
-    commit id: "SN: Auto Deposits (#32)"
-    commit id: "SN: Flexible Creation (#42)"
-    commit id: "SN: Contestation (#14)"
-    commit id: "SN: View Methods (#11)"
-    checkout safety-net
-
-    branch sn-risk
-    checkout sn-risk
-    commit id: "SN: Risk Ratio (#29)"
-    commit id: "SN: Liquidity Formulas"
-    checkout safety-net
-    merge sn-features
-    merge sn-risk
-
-    commit id: "SN: Security Audit"
-    commit id: "🚀 SN Launch Dec 6"
-
-    checkout main
-    merge solidarity-fund
-    merge stacks
-    merge safety-net
+    merge st-sc
+    merge st-fe
+    commit id: "🚀 Stacks Launch Nov 25"
+    merge sn-sc
+    merge sn-fe
+    commit id: "🚀 Safety Net Launch Dec 6"
     commit id: "✅ Q4 Complete"
 ```
 
