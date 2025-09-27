@@ -7,7 +7,7 @@ share: true
 
 # Member Projects
 
-Member projects are the organizations that make up the Breadchain Cooperative.
+Member projects are the organizations that make up the Bread Cooperative.
 
 Current Member Projects are:
 
@@ -20,7 +20,7 @@ Current Member Projects are:
 
 ## Eligibility
 
-If an organization would like to become a Member Project of the Breadchain Cooperative they must: be an active organization, have familiarity with web3 tools, and have demonstrated work on one or more of Breadchain’s guiding principles.
+If an organization would like to become a Member Project of the Bread Cooperative they must: be an active organization, have familiarity with web3 tools, and have demonstrated work on one or more of Breadchain’s guiding principles.
 
 For consideration, a potential new project to be added to the network must be nominated by another member and have filled out the application form. The project must also provide information about itself and have a representative in mind to be included in the monthly governance calls. We will only invite new projects to join the cooperative upon **unanimous vote** from the whole group.
 

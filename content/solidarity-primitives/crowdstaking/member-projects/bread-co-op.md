@@ -10,7 +10,7 @@ share: true
 
 ## About Breadchain Core
 
-The Breadchain Core team includes the developers and designers of Breadchain applications as well as the stewards of the online community. The Breadchain Core team builds Solidarity Primitives - development tools which help to forge solidarity between individuals and collectives. The first solidarity primitive created by the Breadchain Cooperative is the [[wiki/about/bread-token/index|$BREAD Token]] found on the [Bread Crowdstaking Application](https://app.breadchain.xyz/) built on top of Gnosis Chain.
+The Breadchain Core team includes the developers and designers of Breadchain applications as well as the stewards of the online community. The Breadchain Core team builds Solidarity Primitives - development tools which help to forge solidarity between individuals and collectives. The first solidarity primitive created by the Bread Cooperative is the [[wiki/about/bread-token/index|$BREAD Token]] found on the [Bread Crowdstaking Application](https://app.breadchain.xyz/) built on top of Gnosis Chain.
 
 The Core team’s work is both technical by building smart contracts and applications to be used by the member projects and its supporters as well as social by making space the human coordination necessary for growing the project. If you want to engage and help, be sure to sign up in the [contributor pipeline](https://forms.gle/UU4FmHq4CZbiEKPc6) form.
 

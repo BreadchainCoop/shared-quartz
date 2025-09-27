@@ -17,7 +17,7 @@ A flourishing network of communities that ==**express solidarity across issues**
 
 ## Technical Endgame
 
-Supporters of Breadchain Cooperative are able to easily bring their money on-chain to bake BREAD leveraging existing solutions. Users are also able to ==**easily make payments with their phone in BREAD**==. This may also be integrated with their Gnosis Pay account that they can use to make payments effectively in BREAD with their debit card. With their BREAD, users are able to then take part in on-chain governance like participatory budgeting that helps guide the direction of the overall projects building post-capitalist dual power structures within the network. The overall Breadchain tech stack is one that ==**serves the interest of those building an economic structure based on solidarity**== and not limitless extraction.
+Supporters of Bread Cooperative are able to easily bring their money on-chain to bake BREAD leveraging existing solutions. Users are also able to ==**easily make payments with their phone in BREAD**==. This may also be integrated with their Gnosis Pay account that they can use to make payments effectively in BREAD with their debit card. With their BREAD, users are able to then take part in on-chain governance like participatory budgeting that helps guide the direction of the overall projects building post-capitalist dual power structures within the network. The overall Breadchain tech stack is one that ==**serves the interest of those building an economic structure based on solidarity**== and not limitless extraction.
 
   
 

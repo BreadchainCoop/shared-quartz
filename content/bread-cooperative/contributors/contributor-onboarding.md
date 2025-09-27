@@ -21,8 +21,8 @@ The types of contributions we’re looking for includes
 
 If you’re a developer, here’s our Github page where you’ll see that we use tools and frameworks like wagmi, ethers, nextjs, typescript, tailwindcss, solidity, etc.
 
-> [!info] Breadchain Cooperative  
-> Breadchain Cooperative has 11 repositories available.  
+> [!info] Bread Cooperative  
+> Bread Cooperative has 11 repositories available.  
 > [https://github.com/breadchaincoop](https://github.com/breadchaincoop)  
 
 But more than perhaps anything, we are looking for people with emotional maturity, post-capitalist entrepreneurial spirit, and ability to work autonomously. This includes those who have experience working in cooperative environments or eager to learn how. We suggest the book “Better work together” from the folks at Enspiral which forms much of the inspiration for how we work together.

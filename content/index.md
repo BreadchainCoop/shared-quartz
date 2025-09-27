@@ -5,9 +5,9 @@ fileClass: file
 share: true
 ---
 
-Breadchain Cooperative is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call [[wiki/solidarity-primitives/index|Solidarity Primitives]] - development tools which help to forge solidarity between individuals and collectives.
+Bread Cooperative is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call [[wiki/solidarity-primitives/index|Solidarity Primitives]] - development tools which help to forge solidarity between individuals and collectives.
 
-The first _==solidarity primitive==_ created by the Breadchain Cooperative is the [[wiki/about/bread-token/index|Bread Community Token]], created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/). We call this _=="Baking $BREAD"==_. The token acts as both a **claim on the xDAI collateral** as well as a **digital local currency** which will be used within the Breadchain Network of projects and broader ecosystem.
+The first _==solidarity primitive==_ created by the Bread Cooperative is the [[wiki/about/bread-token/index|Bread Community Token]], created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/). We call this _=="Baking $BREAD"==_. The token acts as both a **claim on the xDAI collateral** as well as a **digital local currency** which will be used within the Breadchain Network of projects and broader ecosystem.
 
 The primary infrastructure being built at Breadchain is to ask ourselves _what if progressives had their own [[wiki/about/bread-token/index|token]] and [[wiki/solidarity-primitives/crowdstaking/yield-governance/index|governance]]?_ Where would we decide to put resources towards to build a post-capitalist political economy?
 
@@ -19,7 +19,7 @@ The primary infrastructure being built at Breadchain is to ask ourselves _what 
 > 	- [[wiki/about/bread-token/marketplace/index|$BREAD Marketplace]]
 > 	- [[wiki/solidarity-primitives/crowdstaking/member-projects/index|Member Projects]]
 
-> [!info] Breadchain Cooperative - Open Collective  
+> [!info] Bread Cooperative - Open Collective  
 > Breadchain is a cooperative of blockchain projects working to advance a progressive vision for the technology and its effect on society.  
 > [https://opencollective.com/breadchain-cooperative](https://opencollective.com/breadchain-cooperative)  
 

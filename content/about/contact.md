@@ -5,7 +5,7 @@ fileClass: file
 share: true
 ---
 
-### Contact ==**Breadchain Cooperative**== at the following
+### Contact ==**Bread Cooperative**== at the following
 
 ---
 
@@ -35,7 +35,7 @@ share: true
 > [!important] **Open Collective:**
 > 
 >   
-> **[Breadchain Cooperative](https://opencollective.com/breadchain-cooperative)**
+> **[Bread Cooperative](https://opencollective.com/breadchain-cooperative)**
 
 > [!important] **Newsletter:**
 > 

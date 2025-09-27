@@ -7,11 +7,11 @@ share: true
 
 # Our Shared Animating Purpose
 
-Breadchain Cooperative is empowering the struggle for a progressive and equitable future. We see that the political left is starting to actualize the value of blockchains and cryptocurrencies as radical and liberating tools that can be added to the toolsets of any political collective. We want to build an infrastructure of funding mechanisms, toolkits, and networks of support that our comrades can plug into. Breadchain is assembling a foundation on which post-capitalist projects can build, sustain, endure, and win the fight for a fair and just society.
+Bread Cooperative is empowering the struggle for a progressive and equitable future. We see that the political left is starting to actualize the value of blockchains and cryptocurrencies as radical and liberating tools that can be added to the toolsets of any political collective. We want to build an infrastructure of funding mechanisms, toolkits, and networks of support that our comrades can plug into. Breadchain is assembling a foundation on which post-capitalist projects can build, sustain, endure, and win the fight for a fair and just society.
 
 The ultimate challenge we are faced with, is how to both exist **within** a capitalist system we don’t agree with, while fighting **against** it for building towards post-capitalism. This means finding sustainable solutions for aligned persons so they can commit themselves to pro-social endeavors in the long term rather than just in short bursts until resources are used up or people burn out. Crypto tools provide an opening in the economic design space for organizations to develop economic systems with pro-social values embedded in them. Given the centralizing tendencies of techno-capitalism, there is an inescapable necessity to build decentralized alternative technical infrastructures. The left needs its own digital and economic infrastructure that transcends the trap of either venture capital or charity funding dependency, to create collective solidaristic relationships embedded in smart contracts.
 
-In order to forge this future into reality we know that by working together we can go farther. Breadchain Cooperative is therefore a mutual aid organization and federation of projects with the purpose of exploring the radical potentials of distributed ledger technologies like blockchains.
+In order to forge this future into reality we know that by working together we can go farther. Bread Cooperative is therefore a mutual aid organization and federation of projects with the purpose of exploring the radical potentials of distributed ledger technologies like blockchains.
 
 ## Guiding Principles
 

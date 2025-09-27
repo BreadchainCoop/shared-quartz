@@ -25,9 +25,9 @@ folderOrder: 1
 
 # What is Breadchain?
 
-[Breadchain Cooperative](https://breadchain.xyz/) is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call _==**solidarity primitives**==_ - development tools which help to forge solidarity between individuals and collectives.
+[Bread Cooperative](https://breadchain.xyz/) is a **collective federation of decentralized cooperative projects** looking to advance a **progressive vision for blockchain** and its effect on society. We aim to do this by building and utilizing what we call _==**solidarity primitives**==_ - development tools which help to forge solidarity between individuals and collectives.
 
-The first _==**solidarity primitive**==_ created by the Breadchain Cooperative is the ==**[[wiki/about/bread-token/index]]**== community token created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/) built on Gnosis Chain. Users give xDAI and receive BREAD at the same amount. The xDAI held in the contract is then converted to sDAI to generate a yield that is distributed based on a monthly vote.
+The first _==**solidarity primitive**==_ created by the Bread Cooperative is the ==**[[wiki/about/bread-token/index]]**== community token created through the [Bread Crowdstaking Application](https://app.breadchain.xyz/) built on Gnosis Chain. Users give xDAI and receive BREAD at the same amount. The xDAI held in the contract is then converted to sDAI to generate a yield that is distributed based on a monthly vote.
 
 ![[image2.webp]]
 
@@ -220,23 +220,23 @@ Below are the current options for projects that BREAD holders can choose to help
 - [[wiki/solidarity-primitives/crowdstaking/index|Solidarity Fund]]
 
 
-> [!info] Breadchain Cooperative  
+> [!info] Bread Cooperative  
 > A community of decentralized, cooperatives projects building solidarity primitives for a post-capitalist web3.  
 > [https://breadchain.mirror.xyz/](https://breadchain.mirror.xyz/)  
 
-> [!info] Breadchain Cooperative  
-> Breadchain Cooperative is a collective of decentralized cooperative projects looking to advance a progressive vision for blockchain and its potential to transform society.  
+> [!info] Bread Cooperative  
+> Bread Cooperative is a collective of decentralized cooperative projects looking to advance a progressive vision for blockchain and its potential to transform society.  
 > [https://www.youtube.com/@BreadchainCooperative](https://www.youtube.com/@BreadchainCooperative)  
 
-> [!info] breadchain cooperative (@breadchain_) on X  
+> [!info] Bread Cooperative (@breadchain_) on X  
 > A network of projects building solidarity primitives.  
 > [https://x.com/breadchain_](https://x.com/breadchain_)  
 
-> [!info] Breadchain Cooperative  
+> [!info] Bread Cooperative  
 > A collective of decentralized cooperative projects building solidarity primitives funded by our digital community currency BREAD.  
 > [https://guild.xyz/breadchain](https://guild.xyz/breadchain)  
 
-> [!info] Breadchain Cooperative (UK) - Open Collective  
+> [!info] Bread Cooperative (UK) - Open Collective  
 > Breadchain is a cooperative of blockchain projects working to advance a progressive vision for the technology and its effect on society.  
 > [https://opencollective.com/breadchain-cooperative](https://opencollective.com/breadchain-cooperative)  
 
