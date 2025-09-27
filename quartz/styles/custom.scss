@@ -10,7 +10,7 @@
        url('/static/fonts/Bread Body Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
        url('/static/fonts/Bread Body Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -28,7 +28,7 @@
        url('/static/fonts/Bread Body Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 // =============================================================================
@@ -41,7 +41,7 @@
        url('/static/fonts/Bread Display Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -50,7 +50,7 @@
        url('/static/fonts/Bread Display Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -59,7 +59,7 @@
        url('/static/fonts/Bread Display Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 // =============================================================================
