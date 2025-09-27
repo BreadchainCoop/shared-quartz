@@ -50,6 +50,7 @@
 - Font faces defined in `custom.scss` with `@font-face` declarations
 - Typography hierarchy: BreadDisplay (headers), BreadBody (body), IBM Plex Mono (code)
 - Font weights: 300 (light), 400 (regular), 700 (bold), 900 (black)
+- **iOS Fix**: Uses `font-display: block` to prevent iOS WebKit font loading failures that caused text scrambling
 
 ### Path Handling
 - **CRITICAL**: Always use `joinSegments(baseDir, "path")` for asset paths

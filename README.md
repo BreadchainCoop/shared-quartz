@@ -1,13 +1,31 @@
-# Quartz v4
+# Bread Cooperative Wiki
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> Built with Quartz v4 - A modern static site generator for digital gardens and knowledge bases
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+This repository contains the Bread Cooperative's documentation website, built on [Quartz v4](https://quartz.jzhao.xyz/) with extensive customizations for brand consistency and improved user experience.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Quick Start
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+For setup and build instructions, see the comprehensive documentation in the `docs/` directory:
+
+- **🚀 [Getting Started](docs/index.md)** - Initial setup and requirements
+- **🔧 [Build Instructions](docs/build.md)** - Development and production builds
+- **⚙️ [Configuration](docs/configuration.md)** - Customizing site behavior
+- **🎨 [Layout](docs/layout.md)** - Page layouts and components
+- **🌐 [Hosting](docs/hosting.md)** - Deployment options
+
+### Content Management
+- Content files are located in the `content/` directory
+- Write in Markdown with support for [[wikilinks]] and standard markdown links
+- Add frontmatter for metadata, social images, and folder ordering
+
+## Documentation
+
+This site includes local documentation in the `docs/` directory covering all aspects of setup, configuration, and customization. For additional resources:
+
+- **📖 [Official Quartz Documentation](https://quartz.jzhao.xyz/)** - Latest features and updates
+- **🔌 [Plugin Documentation](docs/plugins/)** - Available plugins and custom implementations
+- **✨ [Feature Documentation](docs/features/)** - Comprehensive feature guides
 
 ## Bread Cooperative Modifications
 
@@ -55,6 +73,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **BreadDisplay**: Brand header font with Regular (400), Bold (700), and Black (900) weights
 - **BreadBody**: Brand body text font with Light (300), Regular (400), and Bold (700) weights
 - **Implementation**: Local `@font-face` declarations in `custom.scss` for consistent brand typography
+- **iOS Compatibility**: Uses `font-display: block` to prevent iOS WebKit font loading failures that caused text scrambling on mobile devices
 
 ### Image Assets (`quartz/static/`)
 - **`bread-mono.png`**: Bread Cooperative logo integrated into site title
@@ -89,9 +108,10 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **Social Images**: Integrated with Quartz CustomOgImages plugin system
 
 ### Development Workflow
-- **Build Command**: `npx quartz build --serve` for development
+- **Build Commands**: See [Build Instructions](docs/build.md) for development and production builds
+- **Deployment**: See [Hosting Guide](docs/hosting.md) for deployment options and instructions
 - **Asset Management**: Static assets automatically copied to `public/static/` during build
-- **Font Loading**: Local fonts loaded via CSS `@font-face` with proper fallbacks
+- **Font Loading**: Local fonts loaded via CSS `@font-face` with iOS WebKit compatibility fixes
 
 ## Sponsors
 
