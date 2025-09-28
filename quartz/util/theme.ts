@@ -155,9 +155,9 @@ ${stylesheet.join("\n\n")}
   --highlight: ${theme.colors.lightMode.highlight};
   --textHighlight: ${theme.colors.lightMode.textHighlight};
 
-  --titleFont: "${getFontSpecificationName(theme.typography.title || theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --headerFont: "${getFontSpecificationName(theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --bodyFont: "${getFontSpecificationName(theme.typography.body)}", ${DEFAULT_SANS_SERIF};
+  --titleFont: "${getFontSpecificationName(theme.typography.title || theme.typography.header)}", "Inter", "Source Sans Pro", ${DEFAULT_SANS_SERIF};
+  --headerFont: "${getFontSpecificationName(theme.typography.header)}", "Inter", "Source Sans Pro", ${DEFAULT_SANS_SERIF};
+  --bodyFont: "${getFontSpecificationName(theme.typography.body)}", "Inter", "Source Sans Pro", ${DEFAULT_SANS_SERIF};
   --codeFont: "${getFontSpecificationName(theme.typography.code)}", ${DEFAULT_MONO};
 }
 
