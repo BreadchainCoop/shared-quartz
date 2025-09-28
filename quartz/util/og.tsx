@@ -29,25 +29,38 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
   const bodyFontName = typeof bodyFont === "string" ? bodyFont : bodyFont.name
 
   // Fetch fonts for all weights and convert to satori format in one go
+  // For local fonts that aren't available on Google Fonts, fetchTtf will fail gracefully
   const headerFontPromises = headerWeights.map(async (weight) => {
-    const data = await fetchTtf(headerFontName, weight)
-    if (!data) return null
-    return {
-      name: headerFontName,
-      data,
-      weight,
-      style: "normal" as const,
+    try {
+      const data = await fetchTtf(headerFontName, weight)
+      if (!data) return null
+      return {
+        name: headerFontName,
+        data,
+        weight,
+        style: "normal" as const,
+      }
+    } catch (error) {
+      // For local fonts like BreadDisplay, Google Fonts fetch will fail
+      // Return null to use system font fallbacks in OG image generation
+      return null
     }
   })
 
   const bodyFontPromises = bodyWeights.map(async (weight) => {
-    const data = await fetchTtf(bodyFontName, weight)
-    if (!data) return null
-    return {
-      name: bodyFontName,
-      data,
-      weight,
-      style: "normal" as const,
+    try {
+      const data = await fetchTtf(bodyFontName, weight)
+      if (!data) return null
+      return {
+        name: bodyFontName,
+        data,
+        weight,
+        style: "normal" as const,
+      }
+    } catch (error) {
+      // For local fonts like BreadBody, Google Fonts fetch will fail
+      // Return null to use system font fallbacks in OG image generation
+      return null
     }
   })
 
@@ -207,7 +220,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         width: "100%",
         backgroundColor: cfg.theme.colors[colorScheme].light,
         padding: "2.5rem",
-        fontFamily: bodyFont,
+        fontFamily: `${bodyFont}, "Source Sans Pro", "Open Sans", system-ui, sans-serif`,
       }}
     >
       {/* Header Section */}
@@ -234,7 +247,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             display: "flex",
             fontSize: 32,
             color: cfg.theme.colors[colorScheme].gray,
-            fontFamily: bodyFont,
+            fontFamily: `${bodyFont}, "Source Sans Pro", "Open Sans", system-ui, sans-serif`,
           }}
         >
           {cfg.baseUrl}
@@ -253,7 +266,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           style={{
             margin: 0,
             fontSize: useSmallerFont ? 64 : 72,
-            fontFamily: headerFont,
+            fontFamily: `${headerFont}, "Source Sans Pro", "Open Sans", system-ui, sans-serif`,
             fontWeight: 700,
             color: cfg.theme.colors[colorScheme].dark,
             lineHeight: 1.2,
