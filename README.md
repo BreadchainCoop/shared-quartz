@@ -6,7 +6,7 @@ This repository contains the Bread Cooperative's documentation website, built on
 
 ## Quick Start
 
-For setup and build instructions, see the comprehensive documentation in the `docs/` directory:
+For setup and build instructions, see the comprehensive quartz documentation in the `docs/` directory:
 
 - **🚀 [Getting Started](docs/index.md)** - Initial setup and requirements
 - **🔧 [Build Instructions](docs/build.md)** - Development and production builds
@@ -73,7 +73,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **BreadDisplay**: Brand header font with Regular (400), Bold (700), and Black (900) weights
 - **BreadBody**: Brand body text font with Light (300), Regular (400), and Bold (700) weights
 - **Implementation**: Local `@font-face` declarations in `custom.scss` for consistent brand typography
-- **iOS Compatibility**: Uses `font-display: block` to prevent iOS WebKit font loading failures that caused text scrambling on mobile devices
+- **iOS Compatibility**: Uses `font-display: fallback` to prevent iOS WebKit font loading failures while maintaining performance
 
 ### Image Assets (`quartz/static/`)
 - **`bread-mono.png`**: Bread Cooperative logo integrated into site title
@@ -91,7 +91,9 @@ This repository contains customizations for the Bread Cooperative documentation 
 
 ### Asset Implementation Notes
 - **Path Construction**: All static assets use `joinSegments(baseDir, "static/path")` pattern
-- **Font Loading**: Local fonts with `font-display: swap` for performance
+- **Font Loading**: Local fonts with `font-display: fallback` for iOS compatibility and performance
+- **Font Preloading**: Critical font weights preloaded to reduce Flash of Invisible Text (FOIT)
+- **Fallback Fonts**: Enhanced font stacks with brand-appropriate fallbacks (Source Sans Pro, Open Sans) for better consistency during loading
 - **Image Optimization**: Assets optimized for web delivery and social media platforms
 - **Brand Consistency**: All assets follow Bread Cooperative visual identity guidelines
 
