@@ -53,10 +53,10 @@ export default (() => {
         )}
         {cfg.theme.fontOrigin === "local" && (
           <>
-            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-body-regular.otf")} as="font" type="font/otf" crossOrigin="anonymous" />
-            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-display-regular.otf")} as="font" type="font/otf" crossOrigin="anonymous" />
-            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-body-bold.otf")} as="font" type="font/otf" crossOrigin="anonymous" />
-            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-display-black.otf")} as="font" type="font/otf" crossOrigin="anonymous" />
+            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-body-regular.otf")} as="font" type="font" crossOrigin="anonymous" />
+            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-display-regular.otf")} as="font" type="font" crossOrigin="anonymous" />
+            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-body-bold.otf")} as="font" type="font" crossOrigin="anonymous" />
+            <link rel="preload" href={joinSegments(baseDir, "static/fonts/bread-display-black.otf")} as="font" type="font" crossOrigin="anonymous" />
           </>
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
