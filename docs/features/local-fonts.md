@@ -29,10 +29,9 @@ Store your font files in `quartz/static/fonts/`:
 
 ```
 quartz/static/fonts/
-├── MyFont-Regular.woff2
-├── MyFont-Regular.otf
-├── MyFont-Bold.woff2
-└── MyFont-Bold.otf
+├── my-font-regular.otf
+├── my-font-bold.otf
+└── my-font-light.otf
 ```
 
 ## Font Face Declarations
@@ -42,20 +41,18 @@ Add `@font-face` declarations to `quartz/styles/custom.scss`:
 ```scss
 @font-face {
   font-family: 'CustomBodyFont';
-  src: url('/static/fonts/MyFont-Regular.woff2') format('woff2'),
-       url('/static/fonts/MyFont-Regular.otf') format('opentype');
+  src: url('../static/fonts/my-font-regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'CustomBodyFont';
-  src: url('/static/fonts/MyFont-Bold.woff2') format('woff2'),
-       url('/static/fonts/MyFont-Bold.otf') format('opentype');
+  src: url('../static/fonts/my-font-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 ```
 
@@ -69,8 +66,8 @@ Add `@font-face` declarations to `quartz/styles/custom.scss`:
 
 ## Best Practices
 
-- Use WOFF2 format first for modern browsers, with OTF/TTF fallbacks
-- Include `font-display: swap` to prevent layout shift
+- Use OTF format for maximum compatibility and simplicity
+- Include `font-display: fallback` to prevent layout shift while ensuring font loads
 - Optimize font files to minimize size
 - Declare all required font weights and styles
 - Test font loading across different browsers and connection speeds

@@ -159,3 +159,37 @@ export type ContentDetails = {
 2. Verify paths and asset loading work correctly
 3. Check responsive behavior and cross-browser compatibility
 4. Confirm changes don't break existing functionality
+
+## Critical Action Guidelines
+
+### STOP AND THINK BEFORE EXECUTING
+- **ALWAYS** pause and mentally review the complete action plan before using any tools
+- **VERIFY** that the intended action matches the user's actual request
+- **DOUBLE-CHECK** file paths, directory locations, and command syntax
+- **NEVER** act impulsively or make assumptions about user intent
+
+### Error Recovery Protocol
+1. **ACKNOWLEDGE MISTAKES**: Immediately recognize when an action was wrong
+2. **STOP EXECUTION**: Don't compound errors with more wrong actions
+3. **CLARIFY INTENT**: Ask for clarification if the request is unclear
+4. **CORRECT COURSE**: Fix the error with a single, correct action
+
+## Process Management Rules
+
+### Development Server Guidelines
+- **DEFAULT PORT**: Always use port 8080 for Quartz development servers unless absolutely necessary
+- **SINGLE SERVER**: Only run ONE development server at a time
+- **CLEAN SHUTDOWN**: Always kill background processes when done with a session
+- **NO PORT CONFLICTS**: Never leave multiple servers running on different ports
+
+### Background Process Management
+1. **START**: Only start background processes when specifically needed for testing
+2. **MONITOR**: Use BashOutput tool to check process status periodically
+3. **CLEANUP**: Use KillShell tool to terminate background processes when done
+4. **VERIFY**: Check that processes are properly terminated before ending session
+
+### Port Usage Protocol
+- **8080**: Default Quartz development server port
+- **AVOID**: Using ports 8081, 8082, etc. unless specifically required
+- **CHECK**: Use `netstat` or similar to verify ports are free before starting new servers
+- **KILL**: Terminate processes properly using KillShell tool, not system kill commands

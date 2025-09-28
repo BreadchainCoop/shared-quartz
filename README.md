@@ -72,8 +72,10 @@ This repository contains customizations for the Bread Cooperative documentation 
 ### Font Assets (`quartz/static/fonts/`)
 - **BreadDisplay**: Brand header font with Regular (400), Bold (700), and Black (900) weights
 - **BreadBody**: Brand body text font with Light (300), Regular (400), and Bold (700) weights
+- **Format**: OTF-only for maximum compatibility and simplified maintenance
+- **Naming**: Hyphenated lowercase convention (e.g., `bread-body-regular.otf`)
 - **Implementation**: Local `@font-face` declarations in `custom.scss` for consistent brand typography
-- **iOS Compatibility**: Uses `font-display: fallback` to prevent iOS WebKit font loading failures while maintaining performance
+- **iOS Compatibility**: Uses `font-display: fallback` and OTF format to prevent iOS WebKit font loading failures
 
 ### Image Assets (`quartz/static/`)
 - **`bread-mono.png`**: Bread Cooperative logo integrated into site title
@@ -91,8 +93,8 @@ This repository contains customizations for the Bread Cooperative documentation 
 
 ### Asset Implementation Notes
 - **Path Construction**: All static assets use `joinSegments(baseDir, "static/path")` pattern
-- **Font Loading**: Local fonts with `font-display: fallback` for iOS compatibility and performance
-- **Font Preloading**: Critical font weights preloaded to reduce Flash of Invisible Text (FOIT)
+- **Font Loading**: Local OTF fonts with `font-display: fallback` for iOS compatibility and performance
+- **Font Preloading**: Critical font weights preloaded as OTF format to reduce Flash of Invisible Text (FOIT)
 - **Fallback Fonts**: Enhanced font stacks with brand-appropriate fallbacks (Source Sans Pro, Open Sans) for better consistency during loading
 - **Image Optimization**: Assets optimized for web delivery and social media platforms
 - **Brand Consistency**: All assets follow Bread Cooperative visual identity guidelines

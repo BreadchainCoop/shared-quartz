@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: 'BreadBody';
-  src: url('../static/fonts/Bread Body Light.woff2') format('woff2'),
-       url('../static/fonts/Bread Body Light.otf') format('opentype');
+  src: url('../static/fonts/bread-body-light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: fallback;
@@ -15,8 +14,7 @@
 
 @font-face {
   font-family: 'BreadBody';
-  src: url('../static/fonts/Bread Body Regular.otf') format('opentype'),
-       url('../static/fonts/Bread Body Regular.woff2') format('woff2');
+  src: url('../static/fonts/bread-body-regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -24,8 +22,7 @@
 
 @font-face {
   font-family: 'BreadBody';
-  src: url('../static/fonts/Bread Body Bold.woff2') format('woff2'),
-       url('../static/fonts/Bread Body Bold.otf') format('opentype');
+  src: url('../static/fonts/bread-body-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -37,8 +34,7 @@
 
 @font-face {
   font-family: 'BreadDisplay';
-  src: url('../static/fonts/Bread Display Regular.woff2') format('woff2'),
-       url('../static/fonts/Bread Display Regular.otf') format('opentype');
+  src: url('../static/fonts/bread-display-regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -46,8 +42,7 @@
 
 @font-face {
   font-family: 'BreadDisplay';
-  src: url('../static/fonts/Bread Display Bold.woff2') format('woff2'),
-       url('../static/fonts/Bread Display Bold.otf') format('opentype');
+  src: url('../static/fonts/bread-display-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -55,8 +50,7 @@
 
 @font-face {
   font-family: 'BreadDisplay';
-  src: url('../static/fonts/Bread Display Black.woff2') format('woff2'),
-       url('../static/fonts/Bread Display Black.otf') format('opentype');
+  src: url('../static/fonts/bread-display-black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: fallback;

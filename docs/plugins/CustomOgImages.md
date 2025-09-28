@@ -96,7 +96,7 @@ export const myImage: SocialImageOptions["imageStructure"] = (...) => {
 >   font-style: normal;
 >   font-weight: normal;
 >   font-display: swap;
->   src: url("/static/Newsreader.woff2") format("woff2");
+>   src: url("../static/newsreader-regular.otf") format("opentype");
 > }
 > ```
 >
@@ -107,7 +107,7 @@ export const myImage: SocialImageOptions["imageStructure"] = (...) => {
 > import fs from "fs"
 > import path from "path"
 >
-> const newsreaderFontPath = joinSegments(QUARTZ, "static", "Newsreader.woff2")
+> const newsreaderFontPath = joinSegments(QUARTZ, "static", "newsreader-regular.otf")
 > export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: FontSpecification) {
 >   // ... rest of implementation remains same
 >   const fonts: SatoriOptions["fonts"] = [
