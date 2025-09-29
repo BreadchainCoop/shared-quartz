@@ -1,66 +1,5 @@
 @use "./base.scss";
 
-// =============================================================================
-// BREAD BODY FONTS (Body Text)
-// =============================================================================
-
-@font-face {
-  font-family: 'BreadBody';
-  src: url('/static/fonts/Bread Body Light.woff2') format('woff2'),
-       url('/static/fonts/Bread Body Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BreadBody';
-  src: url('/static/fonts/Bread Body Regular.woff2') format('woff2'),
-       url('/static/fonts/Bread Body Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BreadBody';
-  src: url('/static/fonts/Bread Body Bold.woff2') format('woff2'),
-       url('/static/fonts/Bread Body Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-// =============================================================================
-// BREAD DISPLAY FONTS (Headers)
-// =============================================================================
-
-@font-face {
-  font-family: 'BreadDisplay';
-  src: url('/static/fonts/Bread Display Regular.woff2') format('woff2'),
-       url('/static/fonts/Bread Display Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BreadDisplay';
-  src: url('/static/fonts/Bread Display Bold.woff2') format('woff2'),
-       url('/static/fonts/Bread Display Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'BreadDisplay';
-  src: url('/static/fonts/Bread Display Black.woff2') format('woff2'),
-       url('/static/fonts/Bread Display Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
 
 // =============================================================================
 // TYPOGRAPHY REFINEMENTS
@@ -78,7 +17,7 @@ body {
 // Display text (large headers like "IMAGINE")
 .display-text {
   font-family: var(--headerFont);
-  font-weight: 900;
+  font-weight: 700;
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 0.9;
   letter-spacing: -0.04em;
@@ -158,7 +97,7 @@ h5, h6 {
 
 // Make site title heavier and orange (swap with headings)
 .page-title {
-  font-weight: 900; // Very heavy like "Other Initiatives"
+  font-weight: 700; // Adjusted for Google Fonts availability
 
   a {
     color: var(--dark); // Orange color for the link

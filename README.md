@@ -22,7 +22,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 - **CrawlLinks**: Enhanced with `prettyLinks`, `openLinksInNewTab`, and `lazyLoad` options
 - **Site Configuration**: Customized for `docs.bread.coop` with Bread-specific branding
 - **Ignore Patterns**: Configured to exclude readme files and preserve `.obsidian` folder structure
-- **[Local Fonts](docs/features/local-fonts.md)**: Implemented custom Bread fonts (BreadDisplay/BreadBody) replacing Google Fonts for brand consistency
+- **[Google Fonts](https://fonts.google.com)**: Uses Schibsted Grotesk (headers) and Source Sans Pro (body) for optimal cross-platform compatibility
 - **Brand Colors**: Implemented official BreadCoop design system colors with recent refinements for improved readability
   - **Color Scheme**: Paper backgrounds (#F6F3EB), Core Orange (#EA6023), Ink text (#1B201A)
   - **Refinements**: Replaced overwhelming teal links with subtle dark ink for better readability
@@ -51,10 +51,11 @@ This repository contains customizations for the Bread Cooperative documentation 
 
 ## Static Assets Management
 
-### Font Assets (`quartz/static/fonts/`)
-- **BreadDisplay**: Brand header font with Regular (400), Bold (700), and Black (900) weights
-- **BreadBody**: Brand body text font with Light (300), Regular (400), and Bold (700) weights
-- **Implementation**: Local `@font-face` declarations in `custom.scss` for consistent brand typography
+### Font Configuration
+- **Headers**: Schibsted Grotesk loaded from Google Fonts CDN
+- **Body Text**: Source Sans Pro loaded from Google Fonts CDN
+- **Code**: IBM Plex Mono loaded from Google Fonts CDN
+- **Implementation**: CDN delivery with preconnect optimization for performance
 
 ### Image Assets (`quartz/static/`)
 - **`bread-mono.png`**: Bread Cooperative logo integrated into site title
@@ -72,7 +73,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 
 ### Asset Implementation Notes
 - **Path Construction**: All static assets use `joinSegments(baseDir, "static/path")` pattern
-- **Font Loading**: Local fonts with `font-display: swap` for performance
+- **Font Loading**: Google Fonts CDN with `font-display: swap` for performance
 - **Image Optimization**: Assets optimized for web delivery and social media platforms
 - **Brand Consistency**: All assets follow Bread Cooperative visual identity guidelines
 
@@ -91,7 +92,7 @@ This repository contains customizations for the Bread Cooperative documentation 
 ### Development Workflow
 - **Build Command**: `npx quartz build --serve` for development
 - **Asset Management**: Static assets automatically copied to `public/static/` during build
-- **Font Loading**: Local fonts loaded via CSS `@font-face` with proper fallbacks
+- **Font Loading**: Google Fonts loaded via CDN with browser fallbacks
 
 ## Sponsors
 
