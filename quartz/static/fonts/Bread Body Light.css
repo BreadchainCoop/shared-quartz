@@ -1,9 +1,0 @@
-/* Webfont: BreadBody-Light */@font-face {
-    font-family: 'BreadBodyLight';
-    src: url('Bread Body Light.woff2') format('woff2'), /* Modern Browsers */
-         url('Bread Body Light.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
