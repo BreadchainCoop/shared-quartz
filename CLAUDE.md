@@ -1,5 +1,27 @@
 # Claude Code Configuration
 
+## Communication Guidelines
+- **NEVER** say "you're absolutely right" or similar validating language
+- User does not need validation from a computer
+- Be direct and factual without excessive agreement
+
+## Process Management - CRITICAL RULES
+- **FORBIDDEN**: Using non-standard ports for Quartz development (ONLY port 8080 allowed)
+- **FORBIDDEN**: Running multiple Quartz instances simultaneously
+- **FORBIDDEN**: Using `--port` flag with any value other than 8080
+- **FORBIDDEN**: Using ports 8081, 8082, 8083, or any non-8080 port for Quartz
+- **MANDATORY**: Kill ALL background processes when switching tasks or ending work
+- **MANDATORY**: Check for existing Quartz processes before starting new dev servers
+- **MANDATORY**: Use ONLY `npx quartz build --serve` command (no port modifications)
+- **MANDATORY**: Clean process management - track and kill background processes immediately when done
+- **VIOLATION CONSEQUENCE**: Port conflicts and system instability requiring manual cleanup
+
+### Process Cleanup Protocol
+1. Always check `netstat -ano | findstr ":808\|:3001"` before starting Quartz
+2. Kill any existing Node.js processes holding these ports
+3. Use only foreground processes or immediately kill background ones when switching tasks
+4. Never leave orphaned Quartz processes running
+
 ## Commit Policy
 - **NEVER** list Claude as co-author on any commits
 - User does not want AI attribution in commit messages
