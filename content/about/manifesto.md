@@ -4,7 +4,6 @@ description: The Bread Cooperative Manifesto embodies our identity as working pe
 fileClass: file
 share: true
 permalink: manifesto
-socialImage: socialImages/manifesto.png
 ---
 
 
@@ -49,7 +48,6 @@ Every tool gets better when more people use it. We're building **abundance, not 
 The world today is the result of choices made. Many of these outside our control. We want  to empower working people to make their own choices, especially in communities where  few have previously existed.  We use technology to put these choices in place. Tools need to serve the needs of real  people, and our mission is to make them accessible and effective.  
 
 This is practical optimism, and we don't wait for permission to fix problems. Everything we  do is informed by systems that have historically benefitted people. We are building on these  ideas to empower workers in the digital age.
-
 
 When working people control their own financial tools, we can:  
 

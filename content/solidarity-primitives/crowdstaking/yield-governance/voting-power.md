@@ -4,7 +4,6 @@ description:
 share: true
 permalink: voting-power
 fileClass: index
-socialImage: socialImages/voting-power.png
 ---
 # Understanding BREAD Voting Power
 
