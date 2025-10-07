@@ -36,6 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
       sortFn: (a, b) => {
         const orderA = a.isFolder
           ? a.data?.frontmatter?.folderOrder as number | undefined
@@ -85,6 +86,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
       sortFn: (a, b) => {
         const orderA = a.isFolder
           ? a.data?.frontmatter?.folderOrder as number | undefined

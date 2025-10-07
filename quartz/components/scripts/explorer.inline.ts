@@ -119,16 +119,25 @@ function createFolderNode(
     a.dataset.for = folderPath
     a.className = "folder-title"
     a.textContent = node.displayName
+
+    if (currentSlug === folderPath) {
+      a.classList.add("active")
+    }
+
     button.replaceWith(a)
   } else {
     const span = titleContainer.querySelector(".folder-title") as HTMLElement
     span.textContent = node.displayName
   }
 
-  // if the saved state is collapsed or the default state is collapsed
-  const isCollapsed =
-    currentExplorerState.find((item) => item.path === folderPath)?.collapsed ??
-    opts.folderDefaultState === "collapsed"
+  // Check if this is a top-level folder using slugSegments
+  const isTopLevel = node.slugSegments.length === 1
+
+  // Auto-expand top-level folders, collapse nested folders by default
+  const isCollapsed = isTopLevel
+    ? false
+    : currentExplorerState.find((item) => item.path === folderPath)?.collapsed ??
+      opts.folderDefaultState === "collapsed"
 
   // if this folder is a prefix of the current path we
   // want to open it anyways

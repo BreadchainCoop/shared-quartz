@@ -9,8 +9,8 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   return (
     <h2 class={classNames(displayClass, "page-title")}>
       <a href={baseDir}>
-        <img src={joinSegments(baseDir, "static/bread-mono.png")} alt="Bread Logo" class="bread-logo" />
-        {title}
+        <img src={joinSegments(baseDir, "static/bread-orange.png")} alt="Bread Logo" class="bread-logo" />
+        <span class="title-text">{title}</span>
       </a>
     </h2>
   )
@@ -33,6 +33,10 @@ PageTitle.css = `
     height: 1.75rem;
     width: auto;
     flex-shrink: 0;
+  }
+
+  .title-text {
+    color: var(--darkgray);
   }
 }
 `
