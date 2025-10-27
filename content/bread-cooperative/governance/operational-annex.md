@@ -7,11 +7,11 @@ share: true
 
 # Member Projects
 
-Member projects are the organizations that make up the Breadchain Cooperative.
+Member projects are the organizations that make up the Bread Cooperative.
 
 Current Member Projects are:
 
-- Breadchain Core
+- Bread Core Team
 - Symbiota Coop
 - LaborDAO
 - Crypto Commons Association
@@ -20,7 +20,7 @@ Current Member Projects are:
 
 ## Eligibility
 
-If an organization would like to become a Member Project of the Breadchain Cooperative they must: be an active organization, have familiarity with web3 tools, and have demonstrated work on one or more of Breadchain’s guiding principles.
+If an organization would like to become a Member Project of the Bread Cooperative they must: be an active organization, have familiarity with web3 tools, and have demonstrated work on one or more of Bread Cooperative’s guiding principles.
 
 For consideration, a potential new project to be added to the network must be nominated by another member and have filled out the application form. The project must also provide information about itself and have a representative in mind to be included in the monthly governance calls. We will only invite new projects to join the cooperative upon **unanimous vote** from the whole group.
 
@@ -39,7 +39,7 @@ All team members will learn the necessary basic skills for using the technologic
 
 ## Exit / Removal
 
-A Member Project is allowed to leave of their own volition at any time with written resignation. After resignation Breadchain and the Project will have 30 days to conduct the necessary activities to remove them from the cooperative (removal from website, multi-sig, etc.). There may be an instance where an organization requests funds before their resignation and will be asked to return them to the cooperative within the 30 days.
+A Member Project is allowed to leave of their own volition at any time with written resignation. After resignation Bread Cooperative and the Project will have 30 days to conduct the necessary activities to remove them from the cooperative (removal from website, multi-sig, etc.). There may be an instance where an organization requests funds before their resignation and will be asked to return them to the cooperative within the 30 days.
 
 Conversely, through a democratic process, Member Projects may be removed by the collective. A few reasons for this removal could be that the project is not meeting their membership requirements, becomes inactive (3+ months or more of no output), or conducts activities that conflict with the guiding principles.
 
@@ -53,13 +53,13 @@ The request for removal can be initiated by any governing member. This is our pr
 
 ## Financial
 
-The primary multisignature wallet where funds are stored is gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0. These funds are primarily meant to be used at the discretion of what the majority of the Project Leads would like done with it to push the vision of Breadchain forward. The expected scope includes giving grants, sponsorships for events, funding for specific initiatives, and anything else that fits the Breadchain Purpose and Guiding Principles.
+The primary multisignature wallet where funds are stored is gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0. These funds are primarily meant to be used at the discretion of what the majority of the Project Leads would like done with it to push the vision of Bread Cooperative forward. The expected scope includes giving grants, sponsorships for events, funding for specific initiatives, and anything else that fits the Bread Cooperative Purpose and Guiding Principles.
 
-The members of the multisig will include the representatives of each Breadchain network project. There should only be one representative of each project in the multisgnature wallet. Transactions will be decided by a majority signing by the members.
+The members of the multisig will include the representatives of each Bread Cooperative network project. There should only be one representative of each project in the multisgnature wallet. Transactions will be decided by a majority signing by the members.
 
-# Breadchain Core Team
+# Bread Core Team Team
 
-The Breadchain Core Team includes those who are actively contributing to the main day to day activities of Breadchain which may include development work, design, writing articles, marketing, and everything that fits within the remit of Breadchain Core.
+The Bread Core Team Team includes those who are actively contributing to the main day to day activities of Bread Cooperative which may include development work, design, writing articles, marketing, and everything that fits within the remit of Bread Core Team.
 
 ## Eligibility for Joining
 
@@ -73,7 +73,7 @@ Core Team members are expected to join the weekly standup meeting as often as th
 
 A member is allowed to leave of their own volition at any time. A member can also be removed for being inactive or for not communicating for over 30 days. They must first receive a notice warning of their removal but a continued no communication will lead to removal. Current members can also be removed from the group if a majority of the other members vote to do so after due process. Removal includes removal from the multisignature wallet, any relevant chat groups, ending of wages if necessary, etc.
 
-The due process should include a neutral third party from within the Breadchain network if needed to help facilitate any possibilities of conflict resolution. The process shall be followed similar to member project removal. A removed member should hand over accesses to all Breadchain related work they were doing and cannot jeopardize collective assets of the project in order to coerce their continued membership.
+The due process should include a neutral third party from within the Bread Cooperative network if needed to help facilitate any possibilities of conflict resolution. The process shall be followed similar to member project removal. A removed member should hand over accesses to all Bread Cooperative related work they were doing and cannot jeopardize collective assets of the project in order to coerce their continued membership.
 
 ## Financial
 

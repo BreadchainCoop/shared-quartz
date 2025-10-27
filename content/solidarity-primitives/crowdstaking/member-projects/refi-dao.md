@@ -80,20 +80,20 @@ We envision a new paradigm where local communities and global networks unite to 
 
   
 
-## What do you plan to do in the short term with the funds received from Breadchain?
+## What do you plan to do in the short term with the funds received from Bread Cooperative?
 
-> [!important] In the near term, we plan to allocate Breadchain funds to cover operational needs in Q1 ’25 as part of a larger ReFi DAO 2.0 budget and financial plan. This plan will be ratified by DAO members once the appropriate mechanisms are rolled out in January ’25.
+> [!important] In the near term, we plan to allocate Bread Cooperative funds to cover operational needs in Q1 ’25 as part of a larger ReFi DAO 2.0 budget and financial plan. This plan will be ratified by DAO members once the appropriate mechanisms are rolled out in January ’25.
 > 
 > Future initiatives include:
 > 
 > - Supporting local node pilots that integrate BREAD, enabling small-scale experiments in regenerative finance.
-> - Co-launching community campaigns that align ReFi DAO and Breadchain values (e.g., ReFi, post-capitalist initiatives, and building dual power).
+> - Co-launching community campaigns that align ReFi DAO and Bread Cooperative values (e.g., ReFi, post-capitalist initiatives, and building dual power).
 
   
 
-## ==What processes do you have to determine how funds from Breadchain are allocated?==
+## ==What processes do you have to determine how funds from Bread Cooperative are allocated?==
 
-ReFi DAO follows a **consent-based governance** model where proposals are openly shared for community feedback. As ReFi DAO 2.0 is implemented, the allocation of Breadchain funds will be incorporated into the financial plan, the first of which, covering H1 ’25, will be ratified by DAO members in January ’25.
+ReFi DAO follows a **consent-based governance** model where proposals are openly shared for community feedback. As ReFi DAO 2.0 is implemented, the allocation of Bread Cooperative funds will be incorporated into the financial plan, the first of which, covering H1 ’25, will be ratified by DAO members in January ’25.
 
   
 

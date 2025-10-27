@@ -9,7 +9,7 @@ fileClass: index
 
 🔒 [[lp-vaults|Liquidity Provider Voting Vaults]]
 
-In the Breadchain governance smart contracts, ==**voting power accumulation is based on the user's amount of BREAD per block.**==
+In the Bread Cooperative governance smart contracts, ==**voting power accumulation is based on the user's amount of BREAD per block.**==
 
 All voting power for governance votes experiences a delay as a safety precaution. As shown in the image, voting power accumulated this month can be used to vote next month. i.e., voting power accumulated in January can be used to vote in February.
 

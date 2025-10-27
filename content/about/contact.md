@@ -5,19 +5,19 @@ fileClass: file
 share: true
 ---
 
-### Contact ==**Breadchain Cooperative**== at the following
+### Contact ==**Bread Cooperative**== at the following
 
 ---
 
 > [!important] **Email:**
 > 
 >   
-> **contact@breadchain.xyz**
+> **contact@bread.coop**
 
 > [!important] **Twitter:**
 > 
 >   
-> **[@breadchain_](https://twitter.com/breadchain_)**
+> **[@breadcoop](https://x.com/breadcoop)**
 
 > [!important] **Discord:**
 > 
@@ -35,7 +35,7 @@ share: true
 > [!important] **Open Collective:**
 > 
 >   
-> **[Breadchain Cooperative](https://opencollective.com/breadchain-cooperative)**
+> **[Bread Cooperative](https://opencollective.com/breadchain-cooperative)**
 
 > [!important] **Newsletter:**
 > 
@@ -49,7 +49,7 @@ share: true
 
 > [!important] Guild:  
 >   
-> [**Breadchain Guild**](https://guild.xyz/breadchain)
+> [**Bread Cooperative Guild**](https://era.guild.xyz/breadcoop)
 
   
 

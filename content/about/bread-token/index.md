@@ -6,7 +6,7 @@ fileClass: index
 alias: bread-token
 ---
 
-==BREAD== is the community currency for the Breadchain ecosystem which exists on Gnosis Chain. All ==BREAD== is created through the [[wiki/solidarity-primitives/crowdstaking/index|Solidarity Fund]] which anyone with xDAI on Gnosis Chain is able to use to have some BREAD for themselves.
+==BREAD== is the community currency for the Bread Cooperative ecosystem which exists on Gnosis Chain. All ==BREAD== is created through the [[wiki/solidarity-primitives/crowdstaking/index|Solidarity Fund]] which anyone with xDAI on Gnosis Chain is able to use to have some BREAD for themselves.
 
 _==**Download the Citizen Wallet app to make peer-to-peer payments in BREAD today!**==_
 
@@ -16,9 +16,9 @@ _==**Download the Citizen Wallet app to make peer-to-peer payments in BREAD toda
 
 The Crowdstaking Application is a smart contract on Gnosis Chain that accepts a user’s xDAI and turns it into sDAI. In exchange, stakers receive ==BREAD== tokens, minted at a 1-to-1 ratio with the collateralized xDAI.
 
-All of the interest earned on the sDAI is helps fund the collective and its various member projects based on a monthly vote from ==BREAD== holders. The Crowdstaking Application functions as a fundraising engine for the Breadchain Cooperative, while the ==BREAD== token acts as a local currency within the ecosystem, promoting financial sustainability.
+All of the interest earned on the sDAI is helps fund the collective and its various member projects based on a monthly vote from ==BREAD== holders. The Crowdstaking Application functions as a fundraising engine for the Bread Cooperative, while the ==BREAD== token acts as a local currency within the ecosystem, promoting financial sustainability.
 
-Additionally, ==BREAD== holders are able to to vote on how the yield generated from the sDAI is distributed among the projects part of the Breadchain Network every month. At the moment this includes the Crypto Commons Association, ReFi DAO, Citizen Wallet, Labor DAO, and Symbiota Coop in addition to the Breadchain core devs and shared Breadchain treasury.
+Additionally, ==BREAD== holders are able to to vote on how the yield generated from the sDAI is distributed among the projects part of the Bread Cooperative Network every month. At the moment this includes the Crypto Commons Association, ReFi DAO, Citizen Wallet, Labor DAO, and Symbiota Coop in addition to the Bread core devs and shared Bread treasury.
 
 You can learn more about how [[voting-power|voting]] and [[wiki/solidarity-primitives/crowdstaking/yield-governance/index|yield governance]] work here.
 
