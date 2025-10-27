@@ -83,6 +83,6 @@ Designed to fund and reward **community-led proposals** that advance Bread Coope
 
 ### ==🔗 Relevant Links==
 
-- [Bread Cooperative Website](https://breadchain.xyz/)
+- [Bread Cooperative Website](https://bread.coop/)
 - [Detailed Intro to Conviction Voting](https://blog.giveth.io/conviction-voting-a-novel-continuous-decision-making-alternative-to-governance-aa746cfb9475)
 - [Introduction to Gardens V2 and Documentation](https://docs.gardens.fund/)

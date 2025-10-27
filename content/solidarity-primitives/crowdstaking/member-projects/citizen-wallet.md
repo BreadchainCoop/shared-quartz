@@ -73,16 +73,16 @@ We currently have strong partnerships with:
 
 > [!important] Citizen Wallet will accept BREAD as a payment option for any services and subscriptions of our solutions.
 
-## What do you plan to do in the short term with the funds received from Breadchain?
+## What do you plan to do in the short term with the funds received from Bread Cooperative?
 
-> [!important] With the support of Breadchain funding, we plan to allocate development time to features which are specifically useful for $BREAD.
+> [!important] With the support of Bread Cooperative funding, we plan to allocate development time to features which are specifically useful for $BREAD.
 > 
 > - Integrating the $BREAD governance and voting functionality into the Citizen Wallet app
 > - Further development of the marketplace plugin
 > - Integrating into the Safe ecosystem and maybe supporting integration with Gnosis pay cards
 > - Building templates to allow other communities to also set up yield-bearing tokens with a participatory budget mechanism (starting with Brussels PAY)
 
-## ==What processes do you have to determine how funds from Breadchain are allocated?==
+## ==What processes do you have to determine how funds from Bread Cooperative are allocated?==
 
 > [!important] Citizen Wallet has a public Governance process for decisions on budget allocations that is published here:
 > 

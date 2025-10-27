@@ -1,6 +1,6 @@
 ---
 title: Shared Treasury
-description: A co-owned treasury in Breadchain used for grants and sponsorships.
+description: A co-owned treasury in Bread Cooperative used for grants and sponsorships.
 url: https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0
 Project Lead: Co-owned by all project leads
 Treasury: https://app.safe.global/home?safe=gno:0x6A148b997e6651237F2fCfc9E30330a6480519f0
@@ -15,12 +15,12 @@ share: true
 
 ---
 
-## About the Breadchain Shared Treasury
+## About the Bread Shared Treasury
 
-The Breadchain Shared Treasury is the on-chain wallet (multi-signature) for managing the shared resources of the Breadchain Network. Here are some quick facts.
+The Bread Shared Treasury is the on-chain wallet (multi-signature) for managing the shared resources of the Bread Cooperative Network. Here are some quick facts.
 
 - The multi-signature wallet’s signers include one representative of each organization that is part of the network.
-- New members of the multi-signature wallet are based on consensus-driven acceptance of new projects into Breadchain.
+- New members of the multi-signature wallet are based on consensus-driven acceptance of new projects into Bread Cooperative.
 - Each representative is based on how each project chooses their representative for the multi-signature wallet.
 - Members of the wallet are expected to join monthly governance calls with the rest of the representatives to give updates and align on strategic objectives.
 - Each transaction out of the wallet is voted on and confirmed by a majority of the signers.
@@ -38,11 +38,11 @@ The purpose of the treasury is to store and allocate assets meant for pursuing n
 
 > [!important] The main asset held in the treasury is BREAD and is the asset to be used to fund grants. The priority will always be to use BREAD as much as possible even for sponsorships so that other organizations can start to hold BREAD as well.
 
-## What do you plan to do in the short term with the funds received from Breadchain?
+## What do you plan to do in the short term with the funds received from Bread Cooperative?
 
-> [!important] In the short term we plan on continuing to sponsor aligned events through the year to share what Breadchain and its member projects are doing with aligned individuals and communities. We additionally are working on starting a fund for helping kickstart new initiative within the network.
+> [!important] In the short term we plan on continuing to sponsor aligned events through the year to share what Bread Cooperative and its member projects are doing with aligned individuals and communities. We additionally are working on starting a fund for helping kickstart new initiative within the network.
 
-## ==What processes do you have to determine how funds from Breadchain are allocated?==
+## ==What processes do you have to determine how funds from Bread Cooperative are allocated?==
 
 _==e.g., proposals, directly to contributors, etc.==_
 

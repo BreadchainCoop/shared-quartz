@@ -38,7 +38,7 @@ These wish lists are meant to help potential future members of BREAD Cooperative
 > • Have read through the BREAD Cooperative blog
 >   • https://paragraph.com/@breadcoop
 > • Joined the BREAD Cooperative Guild
->   • https://guild.xyz/breadchain
+>   • https://era.guild.xyz/breadcoop
 > • Have minted at least 10 BREAD, preferably much more
 >   • [add new crowdstaking]
 > • Joined the crypto leftist discord

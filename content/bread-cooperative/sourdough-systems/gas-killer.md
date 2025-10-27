@@ -32,7 +32,7 @@ It achieves this through:
 
   
 
-### _==**If you’re interested in Gas Killer then please reach out to us at contact@breadchain.xyz**==_
+### _==**If you’re interested in Gas Killer then please reach out to us at contact@bread.coop**==_
 
   
 

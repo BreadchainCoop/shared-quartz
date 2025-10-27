@@ -72,11 +72,11 @@ Through our diverse initiatives, we strive to empower individuals and communitie
 
 > [!important] Organisations on Dandelion, our events/ticketing platform, can choose to accept BREAD as payment for their events.
 
-## What do you plan to do in the short term with the funds received from Breadchain?
+## What do you plan to do in the short term with the funds received from Bread Cooperative?
 
 > [!important] For the time being, funds will go towards further development of the Dandelion platform, including BREAD-related features
 
-## ==What processes do you have to determine how funds from Breadchain are allocated?==
+## ==What processes do you have to determine how funds from Bread Cooperative are allocated?==
 
 _==e.g., proposals, directly to contributors, etc.==_
 
